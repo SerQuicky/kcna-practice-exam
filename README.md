@@ -9,3 +9,7 @@ An interactive, browser-based KCNA practice exam app with two modes:
 - **Practice Mode** (instant feedback with explanations)
 
 Feel free to add or correct questions through a PR.
+
+## Screenshot
+
+![KCNA practice exam web app screenshot](images/webapp-screenshot.png)
