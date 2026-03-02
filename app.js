@@ -13,6 +13,27 @@
         let allDomains = [];
         let practiceRevealedQuestions = new Set();
 
+        function generateRandomAlphanumericId(length = 14) {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let id = '';
+            for (let i = 0; i < length; i++) {
+                id += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return id;
+        }
+
+        function randomizeQuestionIds() {
+            const usedIds = new Set();
+            EXAM_DATA.allQuestions.forEach(question => {
+                let randomId = generateRandomAlphanumericId(14);
+                while (usedIds.has(randomId)) {
+                    randomId = generateRandomAlphanumericId(14);
+                }
+                question.id = randomId;
+                usedIds.add(randomId);
+            });
+        }
+
         // Get all unique domains from questions
         function getAllDomains() {
             const domains = {};
@@ -61,6 +82,7 @@
         // Load questions
         function loadQuestions() {
             if (typeof EXAM_DATA !== 'undefined') {
+                randomizeQuestionIds();
                 // Initialize domains
                 allDomains = getAllDomains();
                 // Select all domains by default

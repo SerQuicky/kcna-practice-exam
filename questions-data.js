@@ -5,7 +5,6 @@ const EXAM_DATA = {
   "passingScore": 75,
   "allQuestions": [
     {
-      "id": "exam1_q1",
       "question": "Your organization uses a mix of stateful and stateless services for its cloud-native applications. While you're already utilizing Horizontal Pod Autoscaling (HPA) for stateless services, you need to ensure that your stateful services can also scale in a controlled and predictable manner. Which of the following should you consider using?",
       "multiSelect": false,
       "answers": [
@@ -38,7 +37,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q2",
       "question": "You are troubleshooting an issue where some containers in your Kubernetes cluster are failing to start. After inspecting the pod logs, you notice errors related to the container runtime failing to create containers due to insufficient disk space on the node. However, the application doesn't need to store large files, and containers should not accumulate excessive logs or temporary files. Which action should you take to resolve this issue and prevent it from happening in the future?",
       "multiSelect": false,
       "answers": [
@@ -71,7 +69,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q3",
       "question": "What happens when a Node in a Kubernetes cluster becomes unresponsive?",
       "multiSelect": false,
       "answers": [
@@ -104,7 +101,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q4",
       "question": "You are operating a Kubernetes cluster for a payment processing system. Several microservices are critical for the platform’s functionality, and ensuring visibility into inter-service communication is essential. Recently, users have reported occasional delays in transaction processing, but the root cause is unclear. You want to implement a system to provide detailed telemetry, including latency, request success/failure rates, and service dependencies, to help troubleshoot and optimize performance. Which service mesh feature would best support this requirement for improved observability?",
       "multiSelect": false,
       "answers": [
@@ -137,7 +133,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q5",
       "question": "In your Kubernetes cluster, you have multiple teams working on different microservices. You want to enforce resource quotas while also giving teams the flexibility to overcommit resources temporarily for their services during peak usage. What would be the two best approaches to achieve this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -176,7 +171,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q6",
       "question": "Which of the following is the correct way to specify a Node Affinity rule that schedules a Pod only on nodes with a label tier=frontend?",
       "multiSelect": false,
       "answers": [
@@ -209,7 +203,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q7",
       "question": "You have been tasked to isolate network traffic between different departments (e.g., Finance, Engineering) in your Kubernetes cluster. What would be the best practice to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -242,7 +235,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q8",
       "question": "Which type of storage is most appropriate for sharing data between multiple Pods, possibly running on different nodes?",
       "multiSelect": false,
       "answers": [
@@ -275,7 +267,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q9",
       "question": "Which of the following statements best describes the principle behind Cloud Native Architecture?",
       "multiSelect": false,
       "answers": [
@@ -308,7 +299,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q10",
       "question": "You are managing a Kubernetes cluster that hosts a web application. The web application must be accessible from outside the cluster via a fixed IP address. You have been tasked with exposing the application externally using the most cost-effective and simple solution, ensuring the service is reachable by clients across the internet. Which Kubernetes Service type should you use to expose the web application, considering the requirement for external access and fixed IP?",
       "multiSelect": false,
       "answers": [
@@ -341,7 +331,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q11",
       "question": "You are tasked with setting up an anomaly detection system for a cloud-native application running on Kubernetes. The application is instrumented with Prometheus for metrics collection. Which of the following alerting rules would be the most effective in detecting sudden spikes in error rates?",
       "multiSelect": false,
       "answers": [
@@ -374,7 +363,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q12",
       "question": "In Prometheus, what is the primary purpose of using federation?",
       "multiSelect": false,
       "answers": [
@@ -407,7 +395,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q13",
       "question": "Your organization has adopted a GitOps-based workflow for application delivery on Kubernetes. However, you notice that certain configuration changes are taking longer than expected to propagate to the cluster. What could be the primary reason for this delay?",
       "multiSelect": false,
       "answers": [
@@ -440,7 +427,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q14",
       "question": "You are working on a microservices-based application that is running on Kubernetes. The application is experiencing slow response times, and you suspect that latency is introduced when services communicate with each other. To gain more insight into the flow of requests between services, you decide to implement distributed tracing.Which approach should you take to implement distributed tracing in your Kubernetes environment to effectively trace service-to-service communications?",
       "multiSelect": false,
       "answers": [
@@ -473,7 +459,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q15",
       "question": "Which of the following components is responsible for distributing incoming network traffic across Pods in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -506,7 +491,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q16",
       "question": "In a cloud-native architecture, which of the following strategies would not be ideal for application autoscaling?",
       "multiSelect": false,
       "answers": [
@@ -539,7 +523,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q17",
       "question": "In cloud-native architectures, what is the main purpose of an \"event sourcing\" pattern?",
       "multiSelect": false,
       "answers": [
@@ -572,7 +555,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q18",
       "question": "Which of the following data types is not typically used in Cloud Native Observability?",
       "multiSelect": false,
       "answers": [
@@ -605,7 +587,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q19",
       "question": "In a CI/CD pipeline, what is the primary purpose of a canary release when deploying a new version of an application?",
       "multiSelect": false,
       "answers": [
@@ -638,7 +619,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q20",
       "question": "You are tasked with exposing an application running in a Pod to the outside world. Which Kubernetes Service type allows for automatic allocation of an external IP address from a block of IPs owned by the cloud provider?",
       "multiSelect": false,
       "answers": [
@@ -671,7 +651,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q21",
       "question": "You are managing a Kubernetes cluster and have been tasked to limit the CPU and memory resources that can be used by a specific Pod. You decide to use ResourceQuotas and LimitRanges. Which of the following API objects can you apply at the Namespace level to control the Pod resource consumption? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -710,7 +689,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q22",
       "question": "You're a DevOps engineer contributing to a cloud-native open-source project governed by the Cloud Native Computing Foundation (CNCF). The project is looking to evolve its governance model. Which of the following is not a typical component of open-source project governance within the CNCF?",
       "multiSelect": false,
       "answers": [
@@ -749,7 +727,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q23",
       "question": "Your organization has adopted a cloud-native approach to application delivery and is leveraging Kubernetes for deployment. You are tasked with setting up a continuous deployment (CD) pipeline to ensure that code changes are automatically built, tested, and deployed to a Kubernetes cluster when merged into the main branch of the code repository. One of the critical requirements is to ensure that only healthy builds make it to production, and that rollbacks are automatically triggered if a new deployment causes issues in production. Which of the following features should be implemented in the CD pipeline to ensure automated rollback of faulty deployments?",
       "multiSelect": false,
       "answers": [
@@ -782,7 +759,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q24",
       "question": "What role does the Control Plane's API Server play in extending Kubernetes via Custom Resource Definitions (CRDs)?",
       "multiSelect": false,
       "answers": [
@@ -815,7 +791,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q25",
       "question": "In Kubernetes, what would you use to dynamically provision Persistent Volumes based on storage needs specified in a Persistent Volume Claim (PVC)?",
       "multiSelect": false,
       "answers": [
@@ -848,7 +823,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q26",
       "question": "Which Kubernetes object is most directly responsible for defining affinity and anti-affinity rules for pod scheduling?",
       "multiSelect": false,
       "answers": [
@@ -881,7 +855,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q27",
       "question": "You are troubleshooting an issue in your Kubernetes cluster where worker nodes are intermittently unable to communicate with the control plane. You suspect an issue with the Kubernetes API server, as some components of the control plane are becoming unreachable. The cluster consists of three master nodes in an HA configuration, and each node is configured with an etcd database. Which of the following could most likely explain the intermittent communication issues between the worker nodes and the control plane?",
       "multiSelect": false,
       "answers": [
@@ -914,7 +887,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q28",
       "question": "In a cloud-native Kubernetes environment, which of the following metrics would be least useful for identifying bottlenecks in a microservices application?",
       "multiSelect": false,
       "answers": [
@@ -947,7 +919,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q29",
       "question": "Which of the following is the correct way to specify a Node Affinity rule that schedules a Pod only on nodes with a label tier=frontend?",
       "multiSelect": false,
       "answers": [
@@ -980,7 +951,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q30",
       "question": "Which Cloud Native Computing Foundation (CNCF) project aims to provide a set of common APIs for defining and managing cloud-native networking resources?",
       "multiSelect": false,
       "answers": [
@@ -1013,7 +983,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q31",
       "question": "Your company is running a large-scale Kubernetes cluster, and you have noticed the costs are soaring. You are tasked with implementing a cost-management strategy without impacting application performance. Which of the following Cloud Native Observability tools would best aid in identifying resource wastage?",
       "multiSelect": false,
       "answers": [
@@ -1046,7 +1015,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q32",
       "question": "What is the primary difference between a Kubernetes Deployment and a StatefulSet?",
       "multiSelect": false,
       "answers": [
@@ -1079,7 +1047,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q33",
       "question": "Which of the following best describes the Twelve-Factor App methodology in the context of cloud-native applications?",
       "multiSelect": false,
       "answers": [
@@ -1112,7 +1079,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q34",
       "question": "Which persona is most likely to be concerned with tracing and observing the behavior of a microservices architecture in a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -1145,7 +1111,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q35",
       "question": "What impact does setting the priorityClassName to system-cluster-critical have on a Pod?",
       "multiSelect": false,
       "answers": [
@@ -1178,7 +1143,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q36",
       "question": "Your organization is running a stateful application in a Kubernetes cluster. The application needs fast I/O operations and should be resilient to Pod failures. What would be the most appropriate storage class provisioner?",
       "multiSelect": false,
       "answers": [
@@ -1211,7 +1175,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q37",
       "question": "In a cloud-native application, what should be avoided when designing a microservices communication pattern?",
       "multiSelect": false,
       "answers": [
@@ -1244,7 +1207,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q38",
       "question": "Suppose you have an application that reads messages from a message queue. You want to scale the number of Pods based on the length of this queue. Which approach would allow you to accomplish this with Horizontal Pod Autoscaler (HPA)?",
       "multiSelect": false,
       "answers": [
@@ -1283,7 +1245,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q39",
       "question": "What is the primary purpose of Kubernetes' Taints and Tolerations feature?",
       "multiSelect": false,
       "answers": [
@@ -1316,7 +1277,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q40",
       "question": "You are responsible for a mission-critical application deployed on a Kubernetes cluster. The application consists of multiple containers within the same Pod. It's crucial to ensure that when one container fails, the whole Pod should be restarted. What are the two best approaches to accomplish this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -1355,7 +1315,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q41",
       "question": "What is the primary benefit of adhering to Open Standards when implementing Cloud Native Storage solutions?",
       "multiSelect": false,
       "answers": [
@@ -1388,7 +1347,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q42",
       "question": "Which of the following strategies is least effective in minimizing costs associated with network transfer in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -1421,7 +1379,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q43",
       "question": "A financial services company is transitioning from a monolithic application to a cloud-native architecture to improve scalability and deployment velocity. Which of the following practices best aligns with the cloud-native approach to application development?",
       "multiSelect": false,
       "answers": [
@@ -1454,7 +1411,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q44",
       "question": "What is a major drawback of using Serverless architecture in a cloud-native Kubernetes application when compared to traditional container orchestration?",
       "multiSelect": false,
       "answers": [
@@ -1487,7 +1443,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q45",
       "question": "You are a DevOps engineer working for a large organization that handles sensitive customer data. Your team is responsible for ensuring that workloads are secure and follow best practices. One of your critical tasks is configuring the security policies for Kubernetes Pods to prevent malicious container behavior. You need to configure Pod Security Policies (PSPs) to control what Pods are allowed to do. Which of the following Pod Security Policies (PSP) configurations will best prevent privilege escalation attacks while allowing your application to function properly?",
       "multiSelect": false,
       "answers": [
@@ -1520,7 +1475,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q46",
       "question": "Which of the following Kubernetes controllers automatically manages the desired number of pod replicas and maintains high availability of applications?",
       "multiSelect": false,
       "answers": [
@@ -1553,7 +1507,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q47",
       "question": "What is the primary role of a Kubernetes \"Node\" in a cluster?",
       "multiSelect": false,
       "answers": [
@@ -1586,7 +1539,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q48",
       "question": "You are tasked with setting up a Kubernetes cluster where you need to distribute incoming traffic across multiple services based on the URL path. Which Kubernetes resources should you use? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -1625,7 +1577,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q49",
       "question": "In Kubernetes, when should you consider using a Vertical Pod Autoscaler (VPA) instead of a Horizontal Pod Autoscaler (HPA)?",
       "multiSelect": false,
       "answers": [
@@ -1658,7 +1609,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q50",
       "question": "Which field in a Pod specification can be used to set the UID (User ID) and GID (Group ID) for the containers in the Pod?",
       "multiSelect": false,
       "answers": [
@@ -1691,7 +1641,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q51",
       "question": "You are a cluster administrator and are tasked with enabling external access to the Kubernetes API Server for selected namespaces only. Which of the following steps is essential for accomplishing this?",
       "multiSelect": false,
       "answers": [
@@ -1724,7 +1673,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q52",
       "question": "You are required to ensure that all running containers in your Kubernetes cluster are scanned for vulnerabilities. Which of the following methods would be the most suitable to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -1757,7 +1705,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q53",
       "question": "Your company is running a multi-tenant Kubernetes cluster. You are asked to set up rules so that Pods from different departments (say, finance and engineering) should not be scheduled on the same node for compliance reasons. What feature would you use to enforce this requirement?",
       "multiSelect": false,
       "answers": [
@@ -1790,7 +1737,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q54",
       "question": "Which component is responsible for continuously reconciling the desired state of the cluster with its actual state?",
       "multiSelect": false,
       "answers": [
@@ -1823,7 +1769,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q55",
       "question": "Your organization has strict security policies. You need to ensure that no container in any pod can use Linux capabilities like making network connections as root. Which Kubernetes features should you use? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -1862,7 +1807,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q56",
       "question": "What is the primary function of Kubernetes API's watch verb?",
       "multiSelect": false,
       "answers": [
@@ -1895,7 +1839,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q57",
       "question": "You have deployed a microservices-based application on a Kubernetes cluster. One of the services needs to discover all its peer instances for proper functionality. Which resource in Kubernetes would best facilitate this requirement?",
       "multiSelect": false,
       "answers": [
@@ -1928,7 +1871,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q58",
       "question": "You have deployed a multi-node Kubernetes cluster and you notice that a group of Pods scheduled on a particular node are not able to communicate with the Service to which they belong. What could be a likely reason for this?",
       "multiSelect": false,
       "answers": [
@@ -1961,7 +1903,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam1_q59",
       "question": "In a Kubernetes-based cloud-native application, which Serverless framework is known to extend Kubernetes to provide autoscaling down to zero instances?",
       "multiSelect": false,
       "answers": [
@@ -1994,7 +1935,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q60",
       "question": "Which of the following describes a Kubernetes Service?",
       "multiSelect": false,
       "answers": [
@@ -2027,7 +1967,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q61",
       "question": "You are managing a Kubernetes cluster with multiple nodes. One of your application pods suddenly starts consuming too much CPU and memory, affecting other workloads in the cluster. Which of the following actions should you take to ensure this pod doesn't starve other applications? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -2066,7 +2005,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q62",
       "question": "Which component in a Kubernetes cluster is primarily responsible for enabling Pod-to-Pod communication across different nodes?",
       "multiSelect": false,
       "answers": [
@@ -2099,7 +2037,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q63",
       "question": "You are responsible for building and maintaining a CI/CD pipeline for a Kubernetes-based application. Your application uses multiple services, each managed in separate Git repositories. You want to ensure that changes made to one service do not unintentionally affect other services in the pipeline, while still maintaining the ability to test the entire system together when necessary. Which of the following best describes an effective CI/CD strategy in this scenario?",
       "multiSelect": false,
       "answers": [
@@ -2132,7 +2069,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q64",
       "question": "What feature does a StatefulSet in Kubernetes provide that a Deployment does not when it comes to networking?",
       "multiSelect": false,
       "answers": [
@@ -2165,7 +2101,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q65",
       "question": "What is the primary responsibility of the Kubernetes Aggregation Layer when it comes to API extensions?",
       "multiSelect": false,
       "answers": [
@@ -2198,7 +2133,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q66",
       "question": "In a GitOps workflow for Kubernetes, what is the primary role of the \"Git repository\"?",
       "multiSelect": false,
       "answers": [
@@ -2231,7 +2165,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam1_q67",
       "question": "You are tasked with deploying an application in Kubernetes that needs both environment variables and sensitive information, like database credentials. You decide to use both ConfigMaps for general configuration and Secrets for the sensitive data. After deploying, you notice that the application is unable to read the sensitive information from the Secret, even though it can access the general configuration from the ConfigMap. What is the most likely reason the application cannot access the Secret?",
       "multiSelect": false,
       "answers": [
@@ -2264,7 +2197,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam1_q68",
       "question": "You are a Product Owner responsible for a microservices-based cloud-native application. You need to make a decision regarding the granularity of your services. Which of the following approaches aligns best with the microservices architecture principles?",
       "multiSelect": false,
       "answers": [
@@ -2297,7 +2229,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam1_q69",
       "question": "What mechanism can be used in Kubernetes to encrypt Secrets at rest within etcd?",
       "multiSelect": false,
       "answers": [
@@ -2330,7 +2261,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam1_q70",
       "question": "You are managing a Kubernetes cluster with 5 worker nodes and several pods running on each. One of the nodes (Node-3) unexpectedly crashes and goes offline. The system is set up using a high-availability configuration, and you want to ensure that your applications remain accessible without significant downtime. What will happen to the pods that were running on the crashed node (Node-3), and how will Kubernetes ensure the continuity of services?",
       "multiSelect": false,
       "answers": [
@@ -2363,7 +2293,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q1",
       "question": "An organization is using a managed Kubernetes service and wants to optimize its workloads by assigning GPU-intensive jobs to a specific set of nodes. What is the best cloud-native way to manage this using node pools?",
       "multiSelect": false,
       "answers": [
@@ -2396,7 +2325,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q2",
       "question": "Why are Open Standards important in the context of Cloud Native technologies?",
       "multiSelect": false,
       "answers": [
@@ -2429,7 +2357,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q3",
       "question": "You are managing a Kubernetes cluster with a three-node etcd cluster. One of the etcd nodes fails, and you replace it with a new etcd node. Despite the replacement, you notice that the cluster state is not consistent across all etcd nodes. What could be the likely reason?",
       "multiSelect": false,
       "answers": [
@@ -2462,7 +2389,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q4",
       "question": "When you specify multiple nodeSelectorTerms in your Pod specification under affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution, how does Kubernetes interpret this?",
       "multiSelect": false,
       "answers": [
@@ -2495,7 +2421,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q5",
       "question": "In Kubernetes, what does the API Server do when it receives a request to create a new Pod?",
       "multiSelect": false,
       "answers": [
@@ -2528,7 +2453,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q6",
       "question": "You have a Kubernetes cluster running a cloud-native application. The application is set up to emit custom health metrics to Prometheus. What should you use to generate alerts based on those metrics?",
       "multiSelect": false,
       "answers": [
@@ -2561,7 +2485,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q7",
       "question": "A DevOps engineer is designing a cloud-native CI/CD pipeline for a Kubernetes-based web application. Which principle is most critical to ensuring that the application can be reliably deployed and scaled in a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -2594,7 +2517,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q8",
       "question": "Your Kubernetes cluster is configured with both Docker and containerd as container runtimes. You have a specific application that must run using Docker due to some legacy dependencies. How can you ensure that this application's pods are scheduled on nodes running Docker?",
       "multiSelect": false,
       "answers": [
@@ -2627,7 +2549,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q9",
       "question": "What is the most appropriate strategy for managing configuration in a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -2660,7 +2581,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q10",
       "question": "Your company is building a cloud-native application that needs to process incoming customer orders in real-time. The orders are processed by multiple independent microservices (payment, inventory, and shipping) that are triggered by events. You want to implement a serverless architecture to manage these microservices, which should scale automatically based on demand and execute only when events occur. Which serverless solution would best fit this architecture?",
       "multiSelect": false,
       "answers": [
@@ -2693,7 +2613,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q11",
       "question": "In a cloud-native environment using Kubernetes, what would you not typically use a Serverless Function-as-a-Service (FaaS) for?",
       "multiSelect": false,
       "answers": [
@@ -2726,7 +2645,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q12",
       "question": "You are managing a Kubernetes cluster with multiple microservices running in different namespaces. One of your microservices, payment-service, running in the finance namespace, needs to communicate with another service, user-service, located in the auth namespace. You create a ClusterIP service for the user-service in the auth namespace. Despite this, payment-service cannot seem to reach user-service through DNS resolution. What could be the possible cause of this issue?",
       "multiSelect": false,
       "answers": [
@@ -2759,7 +2677,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q13",
       "question": "Which of the following fields in a Pod specification would you configure to ensure that a Pod is scheduled onto nodes that belong to a particular availability zone?",
       "multiSelect": false,
       "answers": [
@@ -2792,7 +2709,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q14",
       "question": "You are managing a stateful application running in a Kubernetes cluster that requires persistent storage for data. The application consists of multiple replicas, and each replica must write to the same shared storage. However, Kubernetes warns you about potential conflicts when multiple replicas try to write to the same volume simultaneously. Your task is to ensure proper storage access without conflicts while maintaining data integrity. Which of the following Kubernetes Persistent Volume (PV) configurations would best allow multiple replicas to read and write to the same volume?",
       "multiSelect": false,
       "answers": [
@@ -2825,7 +2741,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q15",
       "question": "You are tasked with deploying a containerized database application in your Kubernetes cluster that requires persistent storage. The database should be accessible from other services within the cluster but should not be exposed externally. What are the two most appropriate methods to accomplish this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -2864,7 +2779,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q16",
       "question": "Which component is responsible for deciding the actual node where a Pod will run in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -2897,7 +2811,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q17",
       "question": "Your organization is planning to move a monolithic application to a cloud-native architecture. As the lead architect, you need to make sure that the new architecture complies with enterprise governance and security policies. Which of the following cloud-native features or components is least relevant to governance compliance?",
       "multiSelect": false,
       "answers": [
@@ -2930,7 +2843,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q18",
       "question": "What can compromise the 'Source of Truth' principle in a GitOps workflow for Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -2963,7 +2875,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam2_q19",
       "question": "You are implementing a GitOps workflow for a multi-tenant Kubernetes cluster that hosts applications for multiple business units. How should you segregate the resources for each business unit while still maintaining a unified GitOps approach?",
       "multiSelect": false,
       "answers": [
@@ -2996,7 +2907,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam2_q20",
       "question": "In a multi-node Kubernetes cluster, you observe that some of your microservices are experiencing high latency. You have already ruled out network bottlenecks and issues in your application code. What could be another likely reason for this issue?",
       "multiSelect": false,
       "answers": [
@@ -3029,7 +2939,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q21",
       "question": "What is the role of the kubelet in the context of a Kubernetes Node's container runtime?",
       "multiSelect": false,
       "answers": [
@@ -3062,7 +2971,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q22",
       "question": "You are managing a Kubernetes cluster where one of the pods running a critical application occasionally crashes due to an unexpected bug. The application must be restarted automatically whenever it fails. However, in certain cases, the application should not be restarted, such as when the pod's container has completed successfully. You want to define a proper restart policy for this scenario. Which restart policy would be most appropriate to ensure the pod is restarted only when it fails and not when it completes successfully?",
       "multiSelect": false,
       "answers": [
@@ -3095,7 +3003,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q23",
       "question": "What is the primary advantage of using OpenTelemetry for Telemetry & Observability in a cloud-native ecosystem?",
       "multiSelect": false,
       "answers": [
@@ -3128,7 +3035,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q24",
       "question": "Which of the following Istio components is primarily responsible for enforcing policies like rate limiting and access control in the service mesh?",
       "multiSelect": false,
       "answers": [
@@ -3161,7 +3067,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q25",
       "question": "How does Prometheus determine the instance label for targets it scrapes by default?",
       "multiSelect": false,
       "answers": [
@@ -3194,7 +3099,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q26",
       "question": "You have been tasked with designing a cloud-native architecture for a large, mission-critical application that has to comply with strict security and data governance guidelines. The application is composed of multiple microservices and will be running in a multi-cloud environment. Which of the following is the most effective way to manage network policies for such an application?",
       "multiSelect": false,
       "answers": [
@@ -3227,7 +3131,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q27",
       "question": "What is the main advantage of implementing a Kubernetes Operator?",
       "multiSelect": false,
       "answers": [
@@ -3260,7 +3163,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q28",
       "question": "Your organization is running a multi-tenant Kubernetes cluster with strict resource limits. Each namespace is configured with a ResourceQuota object. You deploy a pod with requests (cpu: 500m, memory: 256Mi) and limits (cpu: 1000m, memory: 512Mi). The application fails to start due to insufficient resources. The ResourceQuota allows 2 CPU cores and 2GiB memory. What is the most likely cause?",
       "multiSelect": false,
       "answers": [
@@ -3293,7 +3195,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q29",
       "question": "You are working as a DevOps engineer for a company that is adopting Kubernetes for their cloud-native application deployment. You need to deploy a stateless microservice-based application on Kubernetes, ensuring that the application is scalable and fault-tolerant. You decide to use Kubernetes Deployments to achieve this. What is the primary purpose of using a Kubernetes Deployment in this scenario?",
       "multiSelect": false,
       "answers": [
@@ -3326,7 +3227,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam2_q30",
       "question": "In a cloud-native architecture, what is the primary purpose of an \"Anti-Corruption Layer\"?",
       "multiSelect": false,
       "answers": [
@@ -3359,7 +3259,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q31",
       "question": "Your organization is operating a multi-tenant Kubernetes cluster. You need to ensure that pods from different tenants can't access each other's services even if they are deployed in the same namespace. What is the most effective way to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -3392,7 +3291,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q32",
       "question": "What is not a recommended best practice for managing container images in a Kubernetes-based cloud native application?",
       "multiSelect": false,
       "answers": [
@@ -3425,7 +3323,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q33",
       "question": "In a Kubernetes cluster, what happens when the metrics-server is unavailable and the Horizontal Pod Autoscaler (HPA) is active?",
       "multiSelect": false,
       "answers": [
@@ -3458,7 +3355,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q34",
       "question": "You are managing a Kubernetes cluster for a financial institution that stores sensitive customer data. To ensure security compliance, you need to implement a secure method of managing and accessing secrets (such as API keys, passwords, and encryption keys) within the cluster. Your goal is to minimize the risk of unauthorized access to secrets, while ensuring that workloads can still function properly.Which approach would best secure Kubernetes secrets in this scenario?",
       "multiSelect": false,
       "answers": [
@@ -3491,7 +3387,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q35",
       "question": "You are working on a large Kubernetes deployment with hundreds of nodes and thousands of pods. You are using Prometheus for monitoring, but as the cluster grows, you are starting to notice that Prometheus is consuming a lot of memory and CPU, and the response times for queries are becoming slower. You need to ensure that Prometheus scales effectively with the cluster while maintaining the performance of your monitoring solution. Which of the following is the most appropriate solution to scale Prometheus in a large Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -3524,7 +3419,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q36",
       "question": "Your organization is looking to reduce the overall cost of its Kubernetes cluster while ensuring high availability. The current cluster spans three availability zones and utilizes autoscaling. What is the most effective cost-reduction strategy that still ensures high availability?",
       "multiSelect": false,
       "answers": [
@@ -3557,7 +3451,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q37",
       "question": "What is the purpose of a ConfigMap in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -3590,7 +3483,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q38",
       "question": "What does the \"Status\" sub-resource in the Kubernetes API represent?",
       "multiSelect": false,
       "answers": [
@@ -3623,7 +3515,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q39",
       "question": "You are managing a Kubernetes cluster, and you need to deploy an application that requires consistent resource usage. The application should have a minimum of 1 CPU and 1 GiB of memory to run correctly, but you also want to set limits to ensure it does not exceed 2 CPUs and 2 GiB of memory to avoid resource contention with other applications. You create a pod specification with resource requests and limits, but when you deploy the pod, it stays in a \"Pending\" state longer than expected. Which of the following is the most likely reason the pod is stuck in a \"Pending\" state, and what can you do to resolve the issue?",
       "multiSelect": false,
       "answers": [
@@ -3656,7 +3547,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q40",
       "question": "When setting up an environment with High Availability (HA) in mind, which of the following approaches in Kubernetes can ensure that the cluster remains available even if a data center goes down?",
       "multiSelect": false,
       "answers": [
@@ -3689,7 +3579,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam2_q41",
       "question": "What is the least recommended practice when you are deploying a cloud-native application on a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -3722,7 +3611,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam2_q42",
       "question": "Which container runtime is supported by Kubernetes out-of-the-box and has been historically the default choice?",
       "multiSelect": false,
       "answers": [
@@ -3755,7 +3643,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q43",
       "question": "You are managing a Kubernetes cluster with a three-node etcd cluster. One of the etcd nodes fails, and you replace it with a new etcd node. Despite the replacement, you notice that the cluster state is not consistent across all etcd nodes. What could be the likely reason?",
       "multiSelect": false,
       "answers": [
@@ -3788,7 +3675,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q44",
       "question": "You are configuring an API Aggregation Layer in Kubernetes to extend the Kubernetes API. Which two API server components are involved in setting up the API aggregation layer? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -3827,7 +3713,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q45",
       "question": "What should you do to ensure that two Pods do not get scheduled on the same Node?",
       "multiSelect": false,
       "answers": [
@@ -3860,7 +3745,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q46",
       "question": "What is the primary benefit of implementing Distributed Tracing in a Cloud Native Observability strategy?",
       "multiSelect": false,
       "answers": [
@@ -3893,7 +3777,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q47",
       "question": "In a Kubernetes cluster, which default service is responsible for DNS name resolution?",
       "multiSelect": false,
       "answers": [
@@ -3926,7 +3809,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q48",
       "question": "In a cloud-native application, what is the primary reason for preferring stateless over stateful services?",
       "multiSelect": false,
       "answers": [
@@ -3959,7 +3841,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q49",
       "question": "Which Kubernetes resource is primarily used to define permissions for API resources within a specific Namespace?",
       "multiSelect": false,
       "answers": [
@@ -3992,7 +3873,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q50",
       "question": "When using Kubernetes, what practice could potentially lead to the most cost inefficiency when dealing with persistent storage?",
       "multiSelect": false,
       "answers": [
@@ -4025,7 +3905,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q51",
       "question": "You need to ensure that sensitive data such as passwords and API keys are securely managed in your Kubernetes cluster. Which of the following should you use to achieve this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -4064,7 +3943,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q52",
       "question": "Your organization wants to implement fine-grained, application-level routing and also capture telemetry data like latency, request counts, and error rates. Which of the following Kubernetes-related technologies should be your primary choice?",
       "multiSelect": false,
       "answers": [
@@ -4097,7 +3975,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q53",
       "question": "In a dynamically provisioned storage scenario in Kubernetes, what gets created first when a user creates a Persistent Volume Claim (PVC)?",
       "multiSelect": false,
       "answers": [
@@ -4130,7 +4007,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q54",
       "question": "Your organization wants to build a highly scalable Cloud Native application. Which of the following should be considered to ensure that the architecture is capable of handling rapid scaling events? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -4169,7 +4045,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q55",
       "question": "You're the chief architect of a cloud-native project that aims to be highly interoperable with other platforms and services. What open standard should you primarily consider for implementing service-to-service communication within your Kubernetes-based architecture?",
       "multiSelect": false,
       "answers": [
@@ -4202,7 +4077,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q56",
       "question": "Which Kubernetes component is responsible for the actual orchestration of containers on the worker nodes?",
       "multiSelect": false,
       "answers": [
@@ -4235,7 +4109,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q57",
       "question": "What is the primary role of the kubelet in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -4268,7 +4141,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q58",
       "question": "You have deployed an application on a Kubernetes cluster consisting of nodes across different availability zones (AZs). Your application must maintain high availability, but you observe that the Pods for your application are all scheduled in a single AZ. What would you do to ensure that the Pods are distributed across different AZs?",
       "multiSelect": false,
       "answers": [
@@ -4301,7 +4173,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q59",
       "question": "In a cloud-native Kubernetes application, what is the main reason to opt for Horizontal Pod Autoscaling (HPA) instead of Vertical Pod Autoscaling (VPA)?",
       "multiSelect": false,
       "answers": [
@@ -4334,7 +4205,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q60",
       "question": "Which component in Kubernetes is primarily responsible for handling authorization decisions when a user attempts to access a Kubernetes API resource?",
       "multiSelect": false,
       "answers": [
@@ -4367,7 +4237,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam2_q61",
       "question": "Your application has a web service container that serves an API and a separate logging container that ships logs to a centralized logging service. These two containers need to share a volume for log files. Which two configurations would be the most appropriate to achieve this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -4406,7 +4275,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q62",
       "question": "Your company has a Kubernetes cluster running several mission-critical applications. The cluster is configured with three worker nodes. You notice that one of the worker nodes is suffering from resource exhaustion, which affects the stability of the applications. You decide to rebalance the workloads on the cluster to ensure high availability and optimal performance. What would be the most effective way to do so?",
       "multiSelect": false,
       "answers": [
@@ -4439,7 +4307,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q63",
       "question": "Which Kubernetes project allows you to expose services across multiple clusters and offers multicluster service discovery?",
       "multiSelect": false,
       "answers": [
@@ -4472,7 +4339,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q64",
       "question": "In a cloud-native architecture, what role does a \"sidecar\" container typically perform when deployed alongside a main application container?",
       "multiSelect": false,
       "answers": [
@@ -4505,7 +4371,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q65",
       "question": "In an Istio service mesh, which Istio component is responsible for issuing and rotating workload certificates?",
       "multiSelect": false,
       "answers": [
@@ -4538,7 +4403,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam2_q66",
       "question": "In a cloud-native architecture, which of the following is a major disadvantage of using a monolithic Serverless approach as compared to microservices?",
       "multiSelect": false,
       "answers": [
@@ -4571,7 +4435,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q67",
       "question": "Which Kubernetes resource would you use to expose a set of related microservices as a single API by merging multiple API definitions into one?",
       "multiSelect": false,
       "answers": [
@@ -4604,7 +4467,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q68",
       "question": "Which of the following access modes would allow a Persistent Volume (PV) to be mounted as read/write by a single node and as read-only by many nodes?",
       "multiSelect": false,
       "answers": [
@@ -4643,7 +4505,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam2_q69",
       "question": "Your organization is considering moving to a serverless architecture for some of its microservices to improve scalability and reduce operational overhead. Which of the following services would be the most appropriate to move to a serverless architecture?",
       "multiSelect": false,
       "answers": [
@@ -4676,7 +4537,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam2_q70",
       "question": "Your organization uses Custom Resource Definitions (CRDs) to extend Kubernetes functionality. You are required to ensure that CRD instances can only be created by specific teams. Which Kubernetes features should you employ? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -4715,7 +4575,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q1",
       "question": "You are tasked with maintaining a Kubernetes cluster that needs to run both stateful and stateless applications. Your storage needs are diverse, ranging from fast I/O for databases to cheaper, slower storage for logs. Which of the following storage solutions would best meet these diverse requirements? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -4754,7 +4613,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q2",
       "question": "You are developing a cloud-native serverless application that processes user-generated content. The traffic to this application is highly unpredictable—sometimes spiking with a large number of requests and other times seeing little to no traffic. You want to ensure the system is both cost-effective and scalable to handle peak loads. Which design approach best meets your goals?",
       "multiSelect": false,
       "answers": [
@@ -4787,7 +4645,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q3",
       "question": "You need to update a deployment's container image from nginx:1.14 to nginx:1.16. The deployment is named 'my-app' in namespace 'default'. What kubectl command would you use?",
       "multiSelect": false,
       "answers": [
@@ -4820,7 +4677,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q4",
       "question": "In a Kubernetes cluster, what happens when a ReplicationController is scaled down?",
       "multiSelect": false,
       "answers": [
@@ -4853,7 +4709,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q5",
       "question": "In a cloud-native architecture, what is the primary drawback of using predictive autoscaling based on machine learning models?",
       "multiSelect": false,
       "answers": [
@@ -4886,7 +4741,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q6",
       "question": "Which of the following is a primary advantage of Serverless architecture over traditional Cloud Native architecture in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -4919,7 +4773,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q7",
       "question": "What happens when a Kubernetes API request is authenticated but not authorized?",
       "multiSelect": false,
       "answers": [
@@ -4952,7 +4805,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q8",
       "question": "You are operating a Kubernetes cluster and are responsible for setting up observability. Your focus is on gathering metrics for understanding the CPU and memory consumption at the namespace level. What tool would be most effective for this purpose?",
       "multiSelect": false,
       "answers": [
@@ -4985,7 +4837,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q9",
       "question": "You are working on a Kubernetes cluster that hosts a logging system. The logging system uses Persistent Volumes (PV) to store logs, which must be retained even if the logging Pods are deleted. You also want to ensure that if the application is deleted, the data remains accessible for future use, but the volume should not be automatically reused by other applications. Which of the following volume reclaim policies would best meet the requirement of preserving the data after the Pods and application are deleted?",
       "multiSelect": false,
       "answers": [
@@ -5018,7 +4869,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q10",
       "question": "You are designing a Kubernetes application that requires a set of containers to be grouped together and scheduled on the same node for high availability. However, you notice that the application crashes occasionally due to what appears to be a networking issue between containers. Which of the following options can be used to tightly couple the network of the set of containers?",
       "multiSelect": false,
       "answers": [
@@ -5051,7 +4901,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q11",
       "question": "You are working with a Kubernetes cluster that has been configured in a high-availability (HA) setup with multiple instances of the control plane components, including the API server. While performing routine maintenance on one of the control plane nodes, the API server instance on that node becomes unreachable. What will happen when one API server instance becomes unreachable in a high-availability Kubernetes cluster, and how will Kubernetes handle API requests?",
       "multiSelect": false,
       "answers": [
@@ -5084,7 +4933,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q12",
       "question": "You have a stateful application that requires persistent storage. You decide to use a PersistentVolume (PV) and PersistentVolumeClaim (PVC) to provide storage for your application. After setting up, you notice that the Pods associated with the application are stuck in a Pending state. What could be a possible reason for this issue?",
       "multiSelect": false,
       "answers": [
@@ -5117,7 +4965,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q13",
       "question": "You have deployed a Pod named 'web-app' with resource requests (cpu: 200m, memory: 128Mi) and limits (cpu: 500m, memory: 256Mi). What happens if the container tries to use more than 256Mi of memory?",
       "multiSelect": false,
       "answers": [
@@ -5150,7 +4997,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q14",
       "question": "You are running a stateful application that needs to be co-located with another caching service for latency reasons. How can you schedule these pods to always run on the same node?",
       "multiSelect": false,
       "answers": [
@@ -5183,7 +5029,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q15",
       "question": "Which of the following statements about \"Red Method\" in Cloud Native Observability is not true?",
       "multiSelect": false,
       "answers": [
@@ -5216,7 +5061,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q16",
       "question": "When running a stateful application that requires persistent storage in Kubernetes, which of the following can you use to provision dynamic storage?",
       "multiSelect": false,
       "answers": [
@@ -5249,7 +5093,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q17",
       "question": "In a Cloud Native Architecture, which of the following best describes the concept of \"Immutable Infrastructure\"?",
       "multiSelect": false,
       "answers": [
@@ -5282,7 +5125,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q18",
       "question": "Which of the following scenarios could lead to a Pod being evicted due to resource constraints?",
       "multiSelect": false,
       "answers": [
@@ -5321,7 +5163,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q19",
       "question": "In a cloud-native organization using Kubernetes, which persona is most likely to be responsible for defining and applying Network Policies?",
       "multiSelect": false,
       "answers": [
@@ -5354,7 +5195,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q20",
       "question": "In a Kubernetes cluster, you have a Service of type NodePort that exposes a web application running in a Pod. The Service is configured with the NodePort 30000. An external load balancer routes traffic to nodes in the cluster at port 30000. The application in the Pod relies on a Redis cache. The Redis cache is exposed through another Service named redis-service within the cluster. What are the two best practices to securely isolate and manage traffic flow in this scenario? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -5393,7 +5233,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q21",
       "question": "When dealing with latency issues in a Kubernetes-based microservices architecture, which of the following is least likely to be useful?",
       "multiSelect": false,
       "answers": [
@@ -5426,7 +5265,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q22",
       "question": "As a contributor to a CNCF (Cloud Native Computing Foundation) project, you've been asked to review a proposal that involves significant architectural changes to the project. According to CNCF governance guidelines, what should be your first step?",
       "multiSelect": false,
       "answers": [
@@ -5459,7 +5297,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q23",
       "question": "Which of the following PersistentVolume (PV) access modes is suitable for providing ReadWrite access to a storage volume by a single node, while allowing ReadOnly access by multiple nodes?",
       "multiSelect": false,
       "answers": [
@@ -5492,7 +5329,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q24",
       "question": "Your company has a cloud-native application composed of several microservices, each with different scaling requirements. Some services experience high traffic and need to scale quickly, while others remain relatively stable. You are tasked with setting up Kubernetes objects that can automatically scale these services based on resource usage. Which Kubernetes resource should you use to automatically scale the microservices based on resource metrics such as CPU or memory usage?",
       "multiSelect": false,
       "answers": [
@@ -5525,7 +5361,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q25",
       "question": "In a cloud-native architecture using Kubernetes, how would you minimize the latency of a Serverless function (FaaS)?",
       "multiSelect": false,
       "answers": [
@@ -5558,7 +5393,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q26",
       "question": "You are managing a Kubernetes cluster that has multiple environments (development, staging, production). You need to apply different ConfigMaps for each environment without changing the Pod specification. Which two Kubernetes features would you use to accomplish this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -5597,7 +5431,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q27",
       "question": "You are tasked with deploying a stateless application on a Kubernetes cluster that consists of multiple nodes. The application requires auto-scaling based on CPU usage and needs to be highly available. Additionally, you must ensure that new Pods are distributed evenly across the available nodes to avoid overloading any single node. Which of the following Kubernetes features should you configure to meet these requirements?",
       "multiSelect": false,
       "answers": [
@@ -5630,7 +5463,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q28",
       "question": "In a Kubernetes Pod, how can you ensure that a specific container only uses a maximum of 500m CPU?",
       "multiSelect": false,
       "answers": [
@@ -5669,7 +5501,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q29",
       "question": "You have a distributed data processing application that needs to run close to where the data resides for optimal performance. You want to ensure that the application's pods are scheduled on nodes that have local SSDs attached. What should you use? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -5708,7 +5539,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q30",
       "question": "In Kubernetes, which of the following can be used to achieve zero-downtime deployments?",
       "multiSelect": false,
       "answers": [
@@ -5741,7 +5571,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q31",
       "question": "Which of the following patterns is most commonly used for inter-process communication in a cloud-native microservices architecture?",
       "multiSelect": false,
       "answers": [
@@ -5774,7 +5603,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q32",
       "question": "You are in charge of implementing identity management in a cloud-native environment that must adhere to open standards. Which of the following should you use for ensuring secure authentication and authorization?",
       "multiSelect": false,
       "answers": [
@@ -5807,7 +5635,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q33",
       "question": "You are working as a cloud native engineer responsible for securing a multi-tier application running on Kubernetes. The application consists of frontend and backend services. The frontend should only be able to communicate with the backend, and the backend should only accept traffic from the frontend, but you want to deny any other inbound traffic. You decide to create network policies to enforce this. Which of the following Kubernetes Network Policy configurations will best achieve this objective?",
       "multiSelect": false,
       "answers": [
@@ -5840,7 +5667,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q34",
       "question": "Which of the following is a key difference between Kubernetes ConfigMaps and Secrets?",
       "multiSelect": false,
       "answers": [
@@ -5873,7 +5699,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q35",
       "question": "You have a business-critical application running in a Kubernetes cluster that must maintain high availability. User traffic is increasing, and you need to distribute the load evenly across multiple replicas of your application. Which two actions should you take? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -5912,7 +5737,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q36",
       "question": "Which of the following is not a valid field in a Kubernetes NetworkPolicy object to specify network traffic rules?",
       "multiSelect": false,
       "answers": [
@@ -5945,7 +5769,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q37",
       "question": "In a Kubernetes cluster, which of the following resources is designed to automatically restart containers that fail, replace containers, kill containers that don't respond to health checks, and provide many other lifecycle-related functionalities?",
       "multiSelect": false,
       "answers": [
@@ -5978,7 +5801,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q38",
       "question": "Your organization is running a microservices-based application on Kubernetes, and you are using Prometheus to monitor the services. You want to configure alerting to notify your team when the error rate of one of the microservices exceeds a certain threshold. You also need the alert to avoid notifying the team during scheduled maintenance windows when the service is expected to be unavailable.How should you configure Prometheus alerts to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -6011,7 +5833,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q39",
       "question": "In Kubernetes, which field in a Deployment specification allows you to control the rate of a rolling update by specifying the maximum number of Pods that can be unavailable during the update process?",
       "multiSelect": false,
       "answers": [
@@ -6044,7 +5865,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q40",
       "question": "You are responsible for a Kubernetes cluster where you need to ensure zero downtime during node maintenance. Despite setting up PodDisruptionBudgets and carefully draining nodes, you notice that some applications are still experiencing downtime. What is a possible explanation for this behavior?",
       "multiSelect": false,
       "answers": [
@@ -6077,7 +5897,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q41",
       "question": "What is the key advantage of using a Kubernetes DaemonSet over a Deployment for running a logging agent on every node in a cluster?",
       "multiSelect": false,
       "answers": [
@@ -6110,7 +5929,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q42",
       "question": "Your organization is implementing Network Policies for the first time and you're responsible for making sure that communication between different microservices are restricted based on roles. You deploy a Network Policy, but still, Pods from unauthorized namespaces can communicate with your microservice. What could be a possible reason for this?",
       "multiSelect": false,
       "answers": [
@@ -6143,7 +5961,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q43",
       "question": "Your organization is using a GitOps approach for deploying applications to a Kubernetes cluster. You want to ensure that any configuration drift (changes made to the live system that are not in Git) is automatically corrected. Which of the following practices best accomplishes this?",
       "multiSelect": false,
       "answers": [
@@ -6176,7 +5993,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q44",
       "question": "In the context of Kubernetes API, what is a list operation typically used for?",
       "multiSelect": false,
       "answers": [
@@ -6209,7 +6025,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q45",
       "question": "In a CI/CD pipeline, what is the primary purpose of a \"smoke test\" after deploying a new application version to a staging environment?",
       "multiSelect": false,
       "answers": [
@@ -6242,7 +6057,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q46",
       "question": "Your organization is shifting towards a cloud-native architecture and is exploring options for a central logging and monitoring solution. Which of the following is the best approach for implementing a unified logging solution for cloud-native applications?",
       "multiSelect": false,
       "answers": [
@@ -6275,7 +6089,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q47",
       "question": "You have a cluster with multiple namespaces - dev, staging, and prod. Each namespace should be allowed to pull images from a specific private registry. What is the most efficient way to manage image pull secrets for this setup?",
       "multiSelect": false,
       "answers": [
@@ -6308,7 +6121,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q48",
       "question": "In a Kubernetes-based CI/CD pipeline, what role does a \"Kubernetes Operator\" play in managing third-party stateful applications like databases?",
       "multiSelect": false,
       "answers": [
@@ -6341,7 +6153,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q49",
       "question": "Within the context of Telemetry & Observability, what is the primary function of an OpenTelemetry Collector?",
       "multiSelect": false,
       "answers": [
@@ -6374,7 +6185,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q50",
       "question": "You are tasked with implementing a serverless function that performs data transformations. However, your organization is heavily invested in Kubernetes. What would be the best approach to deploy serverless functions in this Kubernetes-based environment?",
       "multiSelect": false,
       "answers": [
@@ -6407,7 +6217,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q51",
       "question": "Which of the following statements is accurate regarding the use of liveness and readiness probes in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -6440,7 +6249,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q52",
       "question": "Which of the following components is responsible for automatically scaling the number of Pods in a Deployment based on CPU utilization?",
       "multiSelect": false,
       "answers": [
@@ -6473,7 +6281,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q53",
       "question": "Which of the following is not generally a good practice for rolling updates in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -6506,7 +6313,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q54",
       "question": "What is the role of the kube-apiserver's \"aggregation layer\"?",
       "multiSelect": false,
       "answers": [
@@ -6539,7 +6345,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q55",
       "question": "Which of the following features in Prometheus allows for temporarily caching query results to improve query performance?",
       "multiSelect": false,
       "answers": [
@@ -6572,7 +6377,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q56",
       "question": "What is the key advantage of using Block Storage as a Persistent Volume (PV) in Kubernetes over using File Storage?",
       "multiSelect": false,
       "answers": [
@@ -6605,7 +6409,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q57",
       "question": "You have a Kubernetes cluster with critical applications. Your task is to update these applications while ensuring zero downtime and that old and new versions of the application can co-exist temporarily. You also want to limit network access to these applications during the transition. What should you use? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -6644,7 +6447,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q58",
       "question": "What Kubernetes component is responsible for setting up networking rules on the node to ensure that Pod-to-Pod traffic is properly routed?",
       "multiSelect": false,
       "answers": [
@@ -6677,7 +6479,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q59",
       "question": "Which Ingress controller uses Envoy as its data plane component to route external HTTP/HTTPS traffic to backend services?",
       "multiSelect": false,
       "answers": [
@@ -6710,7 +6511,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q60",
       "question": "You're using a Service Mesh to manage your microservices deployed in a Kubernetes cluster. You want to ensure that only authenticated users can access certain services. Which Service Mesh feature would you primarily leverage to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -6743,7 +6543,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q61",
       "question": "You are designing a cloud-native application for a retail company that experiences seasonal spikes in traffic. The architecture needs to handle dynamic scaling, provide high availability, and ensure that each microservice can be independently updated without impacting others. Which design principle should you prioritize when structuring your microservices architecture?",
       "multiSelect": false,
       "answers": [
@@ -6776,7 +6575,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q62",
       "question": "In a GitOps workflow for Kubernetes, what is the main drawback of using a 'Push-Based' approach compared to a 'Pull-Based' approach?",
       "multiSelect": false,
       "answers": [
@@ -6809,7 +6607,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam3_q63",
       "question": "Which of the following statements is accurate regarding the use of liveness and readiness probes in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -6842,7 +6639,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q64",
       "question": "What is the primary advantage of using an API Gateway in a cloud-native microservices architecture?",
       "multiSelect": false,
       "answers": [
@@ -6875,7 +6671,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q65",
       "question": "Your Kubernetes cluster is running critical batch processing jobs that should not be interrupted. At the same time, you have less critical services that should yield resources to these jobs when needed. What's the best way to ensure that the critical batch jobs have priority during scheduling?",
       "multiSelect": false,
       "answers": [
@@ -6908,7 +6703,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q66",
       "question": "Which of the following is a Kubernetes-native solution to manage and inject sensitive data into Pods, without storing them in etcd?",
       "multiSelect": false,
       "answers": [
@@ -6941,7 +6735,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam3_q67",
       "question": "Your cloud-native application is running on Kubernetes and uses Prometheus for real-time monitoring. You want to alert the team when the latency of a service crosses a particular threshold. Where would you configure the alerting rules for such a scenario?",
       "multiSelect": false,
       "answers": [
@@ -6974,7 +6767,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam3_q68",
       "question": "In a cloud-native environment, what is the primary advantage of using an API Gateway?",
       "multiSelect": false,
       "answers": [
@@ -7007,7 +6799,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam3_q69",
       "question": "If you define a PriorityClass with a higher value, what impact does it have on Pod scheduling?",
       "multiSelect": false,
       "answers": [
@@ -7040,7 +6831,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam3_q70",
       "question": "Which of the following is a primary characteristic of a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -7073,7 +6863,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q1",
       "question": "Which feature in Kubernetes can be used to control egress and ingress traffic for Pods, based on namespace or label selectors?",
       "multiSelect": false,
       "answers": [
@@ -7106,7 +6895,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q2",
       "question": "What is the role of the Kubernetes scheduler in the process of Pod creation?",
       "multiSelect": false,
       "answers": [
@@ -7139,7 +6927,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q3",
       "question": "If you need to define permissions for users or ServiceAccounts that apply across multiple namespaces, which Kubernetes object should you use?",
       "multiSelect": false,
       "answers": [
@@ -7172,7 +6959,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q4",
       "question": "Your team is developing a payment-processing system using Kubernetes. The system needs to be resilient, ensuring that failures of individual services or nodes do not result in downtime. You also want to ensure that the system can recover gracefully from failures. Which architectural strategy should you implement to improve fault tolerance?",
       "multiSelect": false,
       "answers": [
@@ -7205,7 +6991,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q5",
       "question": "As an architect for a cloud-native application, you need to choose a data serialization format that is both efficient and widely supported by open standards. Which of the following options would be your best choice?",
       "multiSelect": false,
       "answers": [
@@ -7238,7 +7023,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q6",
       "question": "Which of the following is not a CRI (Container Runtime Interface) compatible runtime for Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -7271,7 +7055,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q7",
       "question": "Your team is developing a cloud-native application that includes various types of microservices. One of these microservices is highly event-driven and requires rapid autoscaling. What would be the best architecture pattern for this specific microservice?",
       "multiSelect": false,
       "answers": [
@@ -7304,7 +7087,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q8",
       "question": "Which of the following is not a reason for adopting cloud-native architecture in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -7337,7 +7119,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q9",
       "question": "In a Kubernetes cluster, you're using a Horizontal Pod Autoscaler (HPA) to automatically scale your application based on CPU utilization. Which of the following metrics sources is not supported by HPA for scaling decisions?",
       "multiSelect": false,
       "answers": [
@@ -7376,7 +7157,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q10",
       "question": "In a cloud-native environment, why is it recommended to build stateless applications?",
       "multiSelect": false,
       "answers": [
@@ -7409,7 +7189,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q11",
       "question": "How does Prometheus handle staleness for metrics that are no longer reported?",
       "multiSelect": false,
       "answers": [
@@ -7442,7 +7221,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q12",
       "question": "Your organization has adopted a microservices architecture, and you need to efficiently manage traffic routing and failure recovery for these services in your Kubernetes cluster. Which of the following options should you consider implementing? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -7481,7 +7259,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q13",
       "question": "What is the primary purpose of a Kubernetes DaemonSet?",
       "multiSelect": false,
       "answers": [
@@ -7514,7 +7291,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q14",
       "question": "When a new Pod is created in a Kubernetes cluster, which component is responsible for pulling the necessary container images onto the worker node?",
       "multiSelect": false,
       "answers": [
@@ -7547,7 +7323,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q15",
       "question": "In a Kubernetes cluster, what is the role of the API Server?",
       "multiSelect": false,
       "answers": [
@@ -7580,7 +7355,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q16",
       "question": "What does the acronym CRI stand for in the context of Kubernetes, and what is its primary function?",
       "multiSelect": false,
       "answers": [
@@ -7613,7 +7387,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q17",
       "question": "You are responsible for a multi-node Kubernetes cluster running multiple applications that require inter-namespace communication. However, you need to enforce strict network policies to restrict unauthorized access between namespaces. What are the two best approaches to implement this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -7646,7 +7419,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q18",
       "question": "You are managing a cloud-native application that runs on Kubernetes in a public cloud. Recently, your team has noticed a significant increase in cloud costs, which seems to be driven by over-provisioned resources (e.g., CPU, memory) and inefficient workload scaling. You need to implement cost management strategies to reduce expenses without compromising application performance. Which of the following is the best strategy for managing costs in this Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -7679,7 +7451,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q19",
       "question": "In a Kubernetes cluster, which of the following components is responsible for making decisions about pod eviction when a node is under resource pressure?",
       "multiSelect": false,
       "answers": [
@@ -7712,7 +7483,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q20",
       "question": "Which of the following Kubernetes features can be used to ensure that traffic between Pods in the same cluster is encrypted?",
       "multiSelect": false,
       "answers": [
@@ -7745,7 +7515,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q21",
       "question": "You are part of a development team working with Kubernetes, and you want to contribute to the open-source community by improving a specific Kubernetes Controller. While reviewing the project's governance documentation, you learn about the different roles in the Kubernetes community, such as contributors, reviewers, and maintainers. You are unsure how to contribute effectively and follow the community guidelines. What is the best approach to making your first contribution to the Kubernetes project?",
       "multiSelect": false,
       "answers": [
@@ -7778,7 +7547,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q22",
       "question": "You are part of a cloud-native organization that is building a distributed application. The platform engineering team is responsible for creating and maintaining the Kubernetes clusters that host the application. As a platform engineer, you need to ensure the platform is highly available, secure, and scalable to meet the demands of both internal developer teams and external users. During a team meeting, a discussion arises about the roles and responsibilities of the platform engineers within the cloud-native architecture. You need to clarify your team’s role in the following areas: Which of the following is NOT a primary responsibility of platform engineers in a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -7811,7 +7579,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q23",
       "question": "What is the primary benefit of adopting an event-driven architecture in a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -7844,7 +7611,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q24",
       "question": "You are responsible for a Kubernetes cluster that needs to run stateful applications with persistent storage. However, the storage backends available have different performance characteristics, and you need to match applications with the appropriate storage. How can you achieve this in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -7877,7 +7643,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q25",
       "question": "In a production Kubernetes environment, you have a deployment running a critical microservice with three replicas for high availability. The deployment uses a custom image pulled from a private registry. You have updated the image with a critical security patch and pushed it to the private registry. What is the most effective way to update the deployment with the new image, ensuring zero downtime and rollback capability?",
       "multiSelect": false,
       "answers": [
@@ -7910,7 +7675,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q26",
       "question": "You are a platform engineer responsible for the continuous deployment of your company's cloud-native applications. You want to adopt GitOps principles to manage the Kubernetes clusters more effectively. Your team is currently using a traditional CI/CD pipeline, but you want to shift towards a model where the desired state of the system is defined and managed entirely through Git. Which of the following actions aligns with GitOps principles for managing Kubernetes clusters?",
       "multiSelect": false,
       "answers": [
@@ -7943,7 +7707,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q27",
       "question": "You are responsible for migrating a monolithic application to a cloud-native architecture. One of the key requirements is to enable zero-downtime deployments. Which strategy should you adopt?",
       "multiSelect": false,
       "answers": [
@@ -7976,7 +7739,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q28",
       "question": "You have a Kubernetes cluster configured to use a custom container runtime. When you deploy a new Pod, it fails to start, and you see the following error in the logs:",
       "multiSelect": false,
       "answers": [
@@ -8021,7 +7783,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q29",
       "question": "Which component of the Kubernetes control plane exposes the Kubernetes API?",
       "multiSelect": false,
       "answers": [
@@ -8054,7 +7815,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q30",
       "question": "Which of the following best describes the relationship between taints on nodes and tolerations on Pods in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -8087,7 +7847,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q31",
       "question": "You have a Kubernetes cluster spanning multiple availability zones (AZs). You want to ensure that if an AZ goes down, your stateful application remains available. You decide to use a StatefulSet for your application. Which of the following two methods should you employ for high availability across multiple AZs?",
       "multiSelect": false,
       "answers": [
@@ -8126,7 +7885,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q32",
       "question": "You are an admin for a large Kubernetes cluster. You need to create roles that give specific namespaces read-only access to Pods and Services within their own namespace, and no access to other namespaces. Which two API objects should you create? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -8165,7 +7923,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q33",
       "question": "You are configuring a microservices-based application in Kubernetes with multiple Pods running behind services. The services need to be discoverable by their names within the cluster for proper inter-service communication. You want to ensure that your application uses Kubernetes DNS to resolve service names, and that traffic is properly load balanced across all Pods in a service. Which of the following configurations will best ensure that your services can be properly resolved by DNS and that traffic is distributed across Pods?",
       "multiSelect": false,
       "answers": [
@@ -8198,7 +7955,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q34",
       "question": "You are deploying a set of microservices on a Kubernetes cluster and wish to introduce fine-grained control for ingress and egress traffic between services for improved security. Which Kubernetes-related approach will best serve this use-case?",
       "multiSelect": false,
       "answers": [
@@ -8231,7 +7987,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q35",
       "question": "Which of the following components in Prometheus is responsible for scraping and storing time-series data?",
       "multiSelect": false,
       "answers": [
@@ -8264,7 +8019,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q36",
       "question": "What is the primary reason for using a Kubernetes DaemonSet over a Deployment for running a logging agent on every node in a cluster?",
       "multiSelect": false,
       "answers": [
@@ -8297,7 +8051,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q37",
       "question": "Which of the following API groups in Kubernetes contains resources related to role-based access control (RBAC)?",
       "multiSelect": false,
       "answers": [
@@ -8330,7 +8083,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q38",
       "question": "Which Kubernetes feature allows you to ensure that Pods are co-located on the same node based on specified conditions?",
       "multiSelect": false,
       "answers": [
@@ -8363,7 +8115,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q39",
       "question": "You're responsible for an e-commerce application that includes a stateful database. For disaster recovery, you want to ensure that database Pods can recover quickly from node failures, and that storage remains consistent. Which two configurations should you consider? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -8402,7 +8153,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q40",
       "question": "In a Kubernetes-based cloud-native application, what is the primary role of the Horizontal Pod Autoscaler (HPA)?",
       "multiSelect": false,
       "answers": [
@@ -8435,7 +8185,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q41",
       "question": "What is the primary disadvantage of utilizing a centralized Git repository in a GitOps model for managing multiple Kubernetes clusters?",
       "multiSelect": false,
       "answers": [
@@ -8468,7 +8217,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q42",
       "question": "What is the primary governance body responsible for overseeing the development and health of cloud-native projects like Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -8501,7 +8249,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q43",
       "question": "Which HTTP verb is paired with the replace operation in the Kubernetes API to update existing resources?",
       "multiSelect": false,
       "answers": [
@@ -8534,7 +8281,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q44",
       "question": "You are in charge of deploying a critical microservices application onto a Kubernetes cluster. You want to ensure zero downtime during deployments and easy rollback in case of any issues. Which deployment strategy would best suit this requirement?",
       "multiSelect": false,
       "answers": [
@@ -8567,7 +8313,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q45",
       "question": "You are responsible for a multi-node Kubernetes cluster running multiple applications that require inter-namespace communication. However, you need to enforce strict network policies to restrict unauthorized access between namespaces. What are the two best approaches to implement this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -8600,7 +8345,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q46",
       "question": "You are managing a Kubernetes cluster with multiple namespaces, each serving different teams within your organization. You've noticed that a particular namespace is consistently reaching its resource quota limits, affecting workload stability. What can you do to automatically halt the creation of new Pods in only that namespace once it hits 90% of its allocated CPU quota?",
       "multiSelect": false,
       "answers": [
@@ -8633,7 +8377,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q47",
       "question": "Which of the following is not an effective strategy for managing application secrets in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -8666,7 +8409,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q48",
       "question": "In a Cloud Native architecture that incorporates Serverless components, which of the following is not a typical characteristic of a FaaS (Function as a Service) offering?",
       "multiSelect": false,
       "answers": [
@@ -8699,7 +8441,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q49",
       "question": "Which design pattern is commonly used in cloud-native applications to ensure high availability and fault tolerance?",
       "multiSelect": false,
       "answers": [
@@ -8732,7 +8473,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q50",
       "question": "In a cloud-native architecture, which of the following is NOT an inherent benefit?",
       "multiSelect": false,
       "answers": [
@@ -8765,7 +8505,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q51",
       "question": "You are managing a Kubernetes cluster with several worker nodes, each designated for specific workloads. Some nodes are tainted to ensure only particular types of pods are scheduled on them. For example, node1 is tainted with key=high-memory, effect=NoSchedule. You want to deploy a pod that can run on this node, but it fails to schedule. Why might the pod fail to schedule on node1, and what could be done to resolve the issue?",
       "multiSelect": false,
       "answers": [
@@ -8798,7 +8537,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q52",
       "question": "In a Kubernetes environment with Istio, which component is responsible for dynamically reconfiguring Envoy sidecars to route traffic to different versions of a service for canary releases?",
       "multiSelect": false,
       "answers": [
@@ -8831,7 +8569,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q53",
       "question": "You are deploying a multi-tier application using Kubernetes. The application consists of a frontend service, a backend API, and a database. The frontend needs to communicate with the backend API via a service, while the backend connects to the database using a PersistentVolumeClaim (PVC). You want to ensure that the backend API is highly available by configuring a Deployment with multiple replicas, and the database is stored on a stable, persistent volume. What would be the most appropriate set of Kubernetes resources and configuration to deploy the backend API and the database for this scenario?",
       "multiSelect": false,
       "answers": [
@@ -8864,7 +8601,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q54",
       "question": "Which of the following cloud-native principles most effectively contributes to fault tolerance in a Cloud Native Architecture?",
       "multiSelect": false,
       "answers": [
@@ -8897,7 +8633,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q55",
       "question": "You are running a Kubernetes cluster and have deployed several applications on it. One application is particularly sensitive to I/O latency, and you want to ensure it always has access to the fastest storage available on the nodes where it runs. What is the best approach to guarantee this requirement?",
       "multiSelect": false,
       "answers": [
@@ -8930,7 +8665,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q56",
       "question": "In the realm of Cloud Native Observability, what is the main advantage of using a \"White Box Monitoring\" approach?",
       "multiSelect": false,
       "answers": [
@@ -8963,7 +8697,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q57",
       "question": "Which Kubernetes component is responsible for pulling container images and starting containers?",
       "multiSelect": false,
       "answers": [
@@ -8996,7 +8729,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q58",
       "question": "Which of the following Ingress controllers does not rely on any external load balancers and handles ingress traffic using nodes' IP addresses?",
       "multiSelect": false,
       "answers": [
@@ -9029,7 +8761,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q59",
       "question": "What type of Kubernetes Service is designed for directing traffic to a single Pod and will update to a new Pod if the original Pod fails?",
       "multiSelect": false,
       "answers": [
@@ -9062,7 +8793,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q60",
       "question": "Your Kubernetes cluster spans multiple data centers. You are tasked to ensure that service requests can be automatically routed to the nearest data center for lower latency. Which Kubernetes feature would you primarily use to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -9095,7 +8825,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q61",
       "question": "As a developer in a DevOps team, you are migrating a traditional monolithic application to a cloud-native architecture using Kubernetes. You need to optimize for development speed without compromising security. Which of the following options is most suitable for local development?",
       "multiSelect": false,
       "answers": [
@@ -9128,7 +8857,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q62",
       "question": "You have a Kubernetes cluster and want to programmatically retrieve the list of pods running in a specific namespace using the Kubernetes API. You send an API request as follows:",
       "multiSelect": false,
       "answers": [
@@ -9173,7 +8901,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q63",
       "question": "How does Kubernetes ensure that Pods dependent on ConfigMaps are updated when the ConfigMap is modified?",
       "multiSelect": false,
       "answers": [
@@ -9206,7 +8933,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q64",
       "question": "You're managing a Kubernetes cluster and have been tasked with ensuring that a stateful application is robustly orchestrated. The application requires that its instances (Pods) are created one at a time, in a specific order. What is the most appropriate resource type to use for this?",
       "multiSelect": false,
       "answers": [
@@ -9239,7 +8965,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q65",
       "question": "You are responsible for managing a Kubernetes cluster that will run both stateless and stateful workloads. Your stateful workloads need fast I/O operations. You have multiple types of storage backends available, and you want to allow the kube-scheduler to automatically choose the most appropriate storage class for each workload. What should you do?",
       "multiSelect": false,
       "answers": [
@@ -9272,7 +8997,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam4_q66",
       "question": "What does the imagePullPolicy: Always setting do in a Pod specification?",
       "multiSelect": false,
       "answers": [
@@ -9311,7 +9035,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam4_q67",
       "question": "You are responsible for setting up monitoring for a cloud-native application in a Kubernetes cluster using Prometheus. The business requirement is to retain metrics for long-term analysis. What would be the most effective way to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -9344,7 +9067,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam4_q68",
       "question": "In Kubernetes, what is the primary function of the \"Controller Manager\"?",
       "multiSelect": false,
       "answers": [
@@ -9377,7 +9099,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam4_q69",
       "question": "You are responsible for implementing a CI/CD pipeline for a Kubernetes-based application. You need to ensure that each code push to the main branch not only builds and tests the code but also deploys it to a temporary namespace for acceptance testing. After the acceptance test, the temporary namespace should be deleted. What's the best way to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -9410,7 +9131,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam4_q70",
       "question": "You are responsible for running a stateful application in Kubernetes. The application relies on a database that requires strict data consistency. To ensure that only one database instance writes to the volume at a time, which Kubernetes features should you use? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -9449,7 +9169,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q1",
       "question": "When it comes to cloud-native architecture, what is the primary role of a service mesh?",
       "multiSelect": false,
       "answers": [
@@ -9482,7 +9201,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q2",
       "question": "Your team has implemented GitOps for managing Kubernetes clusters. The desired state of your application is stored in a Git repository, and a GitOps operator is responsible for deploying any changes from Git into the cluster. A colleague suggests adding another manual approval step in the GitOps pipeline before applying changes to production to increase control. What is the best approach to introducing manual approvals while still adhering to GitOps principles?",
       "multiSelect": false,
       "answers": [
@@ -9515,7 +9233,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q3",
       "question": "You are managing a Kubernetes cluster where several microservices communicate with each other. One of these microservices, backend-service, needs to be accessed by the frontend pod. The backend-service is exposed as a ClusterIP Service called backend-service. After deploying everything, the frontend pod cannot communicate with the backend-service. What could be the most likely reason the frontend pod cannot communicate with backend-service?",
       "multiSelect": false,
       "answers": [
@@ -9548,7 +9265,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q4",
       "question": "You are deploying a multi-container application in Kubernetes. This application handles sensitive financial data, so security is a primary concern. You want to ensure that your containers are only able to communicate with other containers and services in the cluster based on strict access control policies. Your goal is to minimize the attack surface by preventing unnecessary communication between services. Which Kubernetes security feature should you configure to enforce strict communication rules between your services and restrict unnecessary network access?",
       "multiSelect": false,
       "answers": [
@@ -9581,7 +9297,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q5",
       "question": "Your cloud-native application is experiencing fluctuating traffic, with sudden spikes during certain times of the day. You are using Kubernetes. What would be the most effective way to automatically handle the varying load?",
       "multiSelect": false,
       "answers": [
@@ -9614,7 +9329,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q6",
       "question": "You are operating a Kubernetes cluster and want to ensure that certain sensitive services are only accessible via HTTPS. What is the most direct way to enforce this constraint?",
       "multiSelect": false,
       "answers": [
@@ -9647,7 +9361,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q7",
       "question": "Which of the following is not a primary benefit of adopting a Serverless architecture in a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -9680,7 +9393,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q8",
       "question": "You want to prevent a Node from being selected by the Kubernetes scheduler for any new Pods. Which action will accomplish this?",
       "multiSelect": false,
       "answers": [
@@ -9713,7 +9425,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q9",
       "question": "What would be the most appropriate API operation to change a specific field of a Pod without affecting other settings?",
       "multiSelect": false,
       "answers": [
@@ -9746,7 +9457,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q10",
       "question": "How do Open Standards contribute to the Cloud Native landscape?",
       "multiSelect": false,
       "answers": [
@@ -9779,7 +9489,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q11",
       "question": "In a cloud-native application, what is the main role of a Circuit Breaker pattern?",
       "multiSelect": false,
       "answers": [
@@ -9812,7 +9521,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q12",
       "question": "You are working with a cluster that employs both SSD and HDD storage types. Your application consists of a database that needs high-speed I/O and a logging service that doesn't require fast storage. Which Kubernetes feature will allow you to optimally assign these different storage needs?",
       "multiSelect": false,
       "answers": [
@@ -9845,7 +9553,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q13",
       "question": "In a cloud-native Kubernetes environment utilizing Serverless architecture, what could be a major concern regarding compliance and data governance?",
       "multiSelect": false,
       "answers": [
@@ -9878,7 +9585,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q14",
       "question": "In a cloud-native environment, why might you choose Cluster Autoscaler over Vertical Pod Autoscaler?",
       "multiSelect": false,
       "answers": [
@@ -9911,7 +9617,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q15",
       "question": "Which persona is most likely to benefit from Kubernetes' Custom Resource Definitions (CRDs) in a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -9944,7 +9649,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q16",
       "question": "You are architecting a cloud-native application composed of multiple microservices. One of your main challenges is to ensure data consistency across all these services. Which of the following cloud-native patterns and technologies would be most effective for achieving data consistency? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -9983,7 +9687,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q17",
       "question": "You are managing an e-commerce platform deployed on Kubernetes. During flash sales, traffic spikes unpredictably, leading to high CPU usage on application pods. You want to ensure that the system can automatically scale based on resource usage to handle fluctuating traffic. Which feature of Kubernetes should you configure to meet this requirement?",
       "multiSelect": false,
       "answers": [
@@ -10016,7 +9719,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q18",
       "question": "Which of the following methods is not generally used for application monitoring in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -10049,7 +9751,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q19",
       "question": "You are designing a stateful application that requires data persistence. You need to ensure that if a node fails, the data isn't lost and the application can resume from where it left off. What two components would be best suited for this scenario? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -10088,7 +9789,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q20",
       "question": "Which Kubernetes object is used to provision dynamic storage for Pods based on a storage class?",
       "multiSelect": false,
       "answers": [
@@ -10121,7 +9821,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q21",
       "question": "You're developing a cloud-native application that exposes multiple APIs. To ensure that these APIs are well-documented and easily consumable by other developers, which open standard should you use?",
       "multiSelect": false,
       "answers": [
@@ -10154,7 +9853,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q22",
       "question": "You have been asked to implement a serverless computing strategy on top of your existing Kubernetes environment for better resource utilization and cost-effectiveness. Which Kubernetes-based solution should you adopt?",
       "multiSelect": false,
       "answers": [
@@ -10187,7 +9885,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q23",
       "question": "You are using a Service Mesh to handle your microservices deployed on Kubernetes. You want to implement automatic retries and timeouts for a more resilient application architecture. Which Service Mesh feature would best serve this requirement?",
       "multiSelect": false,
       "answers": [
@@ -10220,7 +9917,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q24",
       "question": "You are operating a Kubernetes cluster with a mix of Linux and Windows worker nodes. You have a .NET application that should only be scheduled on Windows nodes. What is the most effective way to ensure that this application is only deployed on Windows nodes?",
       "multiSelect": false,
       "answers": [
@@ -10253,7 +9949,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q25",
       "question": "When deploying a stateful application in Kubernetes, which resource type is specifically designed to manage the deployment and scaling of a set of Pods, and to provide guarantees about the ordering and uniqueness of these Pods?",
       "multiSelect": false,
       "answers": [
@@ -10292,7 +9987,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q26",
       "question": "How would you ensure that a Kubernetes PersistentVolume is only available to Pods in a specific namespace?",
       "multiSelect": false,
       "answers": [
@@ -10325,7 +10019,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q27",
       "question": "You are managing a Kubernetes-based microservices architecture, and the team needs to deploy a batch processing service that runs periodically and completes after processing a dataset. The service should run for a fixed number of replicas and must clean up its resources after successful execution to save cluster resources. Which type of Kubernetes object should you create for this batch processing job?",
       "multiSelect": false,
       "answers": [
@@ -10358,7 +10051,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q28",
       "question": "You are responsible for deploying a microservices-based e-commerce application on a Kubernetes cluster. Your application needs to communicate with an external payment gateway for transaction processing. What would be the best way to securely manage the credentials for the external service within the cluster?",
       "multiSelect": false,
       "answers": [
@@ -10391,7 +10083,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q29",
       "question": "You are operating multiple Kubernetes clusters across different cloud providers for a single application. You need to ensure that services in each cluster can discover and communicate with services in other clusters. What are the two best approaches to achieve this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -10430,7 +10121,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q30",
       "question": "Which component in a Kubernetes cluster is responsible for detecting node failures and rescheduling the affected pods onto other healthy nodes?",
       "multiSelect": false,
       "answers": [
@@ -10463,7 +10153,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q31",
       "question": "Which Kubernetes resource is used to represent a virtual IP address that can distribute incoming requests to one or more Pods?",
       "multiSelect": false,
       "answers": [
@@ -10496,7 +10185,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q32",
       "question": "You are responsible for a Kubernetes-based microservice running in a production environment. The microservice experiences variable traffic loads and needs to scale automatically based on CPU utilization. You have already created a Deployment with 2 replicas. Now, you want to configure Horizontal Pod Autoscaling (HPA) to scale the replicas based on CPU usage when it exceeds 70%. Which is the most appropriate way to configure Horizontal Pod Autoscaling for the microservice, ensuring scalability and avoiding over-provisioning?",
       "multiSelect": false,
       "answers": [
@@ -10529,7 +10217,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q33",
       "question": "You want to implement a secure CI/CD pipeline for a Kubernetes application. Security is a top priority, and you must ensure that only approved and scanned container images are deployed to the production namespace. What's the most effective way to enforce this requirement?",
       "multiSelect": false,
       "answers": [
@@ -10562,7 +10249,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q34",
       "question": "Which of the following resource quota types is used to limit the number of services of type LoadBalancer that can be created in a namespace?",
       "multiSelect": false,
       "answers": [
@@ -10595,7 +10281,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q35",
       "question": "You've been given the task of optimizing a multi-container pod in a Kubernetes cluster. The pod is comprised of a main application container and a logging sidecar container. The main application writes logs to a shared volume, and the sidecar container sends them to a remote logging service. What are the two most effective ways to ensure that the logging does not negatively impact the main application? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -10634,7 +10319,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q36",
       "question": "You are deploying a containerized application in a Kubernetes cluster that processes confidential medical data. To ensure that only authorized containers have access to critical credentials stored in Kubernetes Secrets, you want to ensure that the Secrets are protected from being inadvertently exposed to unauthorized pods or users. The team is considering several Kubernetes features to handle this, with an emphasis on protecting both at-rest and in-transit data. Which Kubernetes feature should you use to ensure that access to Secrets is properly secured and encrypted both at rest and in transit?",
       "multiSelect": false,
       "answers": [
@@ -10667,7 +10351,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q37",
       "question": "You need to debug a production issue that seems related to the most recent change deployed in a Kubernetes-native application. The application consists of a custom resource that is managed by a custom controller. What is the most appropriate way to get the historical state changes of a specific custom resource?",
       "multiSelect": false,
       "answers": [
@@ -10700,7 +10383,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q38",
       "question": "Which of the following is not generally a good practice when configuring observability for a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -10733,7 +10415,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q39",
       "question": "You are deploying a microservices-based application on a Kubernetes cluster, and you want to ensure that two different services, Service A and Service B, always run on the same node for optimized networking. Which of the following mechanisms can be used to achieve this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -10772,7 +10453,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q40",
       "question": "In a multi-cloud Kubernetes setup, you notice that some Pods in your Azure cluster cannot communicate with services in your AWS cluster. Which of the following could be potential reasons for this issue? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -10811,7 +10491,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q41",
       "question": "How does Prometheus primarily discover targets for data collection in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -10844,7 +10523,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q42",
       "question": "What should be avoided when implementing a Continuous Deployment (CD) pipeline for a cloud-native application in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -10877,7 +10555,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q43",
       "question": "You're an operations engineer responsible for a Kubernetes environment. You need to provide resource isolation between different teams (finance, marketing, engineering) using the cluster. What feature should you primarily rely on?",
       "multiSelect": false,
       "answers": [
@@ -10910,7 +10587,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q44",
       "question": "What is the role of the initContainers field in a Pod specification?",
       "multiSelect": false,
       "answers": [
@@ -10943,7 +10619,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q45",
       "question": "You have deployed an application using a Kubernetes Deployment and notice that pods are frequently restarting. The readinessProbe is configured with httpGet on path /health, port 8080, with initialDelaySeconds: 5 and periodSeconds: 10. What could cause this behavior?",
       "multiSelect": false,
       "answers": [
@@ -10976,7 +10651,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q46",
       "question": "What is the main difference between \"Horizontal Pod Autoscaling\" and \"Cluster Autoscaling\" in a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -11009,7 +10683,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q47",
       "question": "You are managing a Kubernetes cluster for an e-commerce platform. The platform has a microservice architecture where several services communicate with each other. You want to implement more advanced traffic control and resilience features like retries, load balancing, and traffic splitting for your services. You also need to deploy new versions of the services with zero downtime, allowing a small percentage of traffic to go to the new version before fully migrating. Which service mesh feature would best support your requirement for traffic control and seamless updates?",
       "multiSelect": false,
       "answers": [
@@ -11042,7 +10715,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q48",
       "question": "What is the primary role of the Kubernetes Scheduler in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -11075,7 +10747,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q49",
       "question": "Which persona is least likely to interact directly with Kubernetes APIs in a cloud-native organization?",
       "multiSelect": false,
       "answers": [
@@ -11108,7 +10779,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q50",
       "question": "You have set up a Kubernetes cluster with RBAC. You are using namespaces to segregate environments like development, staging, and production. You are instructed to ensure that a group of users should only be able to get logs and view metrics for Pods in the staging namespace but should not be able to create, delete, or modify any resources. Which of the following should you do?",
       "multiSelect": false,
       "answers": [
@@ -11141,7 +10811,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q51",
       "question": "Which of the following strategies is not recommended for managing application configuration in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -11174,7 +10843,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q52",
       "question": "A large enterprise is migrating its services to a cloud-native architecture and plans to support multiple internal business units using a shared Kubernetes cluster. As the cloud architect, your responsibility is to ensure that the cluster is designed in a way that provides both isolation and resource efficiency for different business units.The business units will have different workloads with varying security and performance requirements. During the planning phase, a stakeholder raises concerns about workload isolation, network security, and resource limitations within the shared cluster. Which of the following strategies is NOT typically part of a cloud architect's responsibilities when designing a multi-tenant Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -11207,7 +10875,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q53",
       "question": "What is the primary role of the OpenTelemetry APIs in a Telemetry & Observability strategy?",
       "multiSelect": false,
       "answers": [
@@ -11240,7 +10907,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q54",
       "question": "When it comes to cloud-native architecture, what is the primary role of a service mesh?",
       "multiSelect": false,
       "answers": [
@@ -11273,7 +10939,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q55",
       "question": "In a typical CI/CD pipeline for a cloud-native application, what is the main reason for implementing a 'Blue-Green' deployment strategy?",
       "multiSelect": false,
       "answers": [
@@ -11306,7 +10971,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q56",
       "question": "Which Git branching strategy is most appropriate for a team practicing Continuous Integration to minimize merge conflicts and ensure code is frequently integrated into the mainline?",
       "multiSelect": false,
       "answers": [
@@ -11339,7 +11003,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam5_q57",
       "question": "In a High Availability (HA) Kubernetes setup, what is the recommended minimum number of etcd nodes?",
       "multiSelect": false,
       "answers": [
@@ -11372,7 +11035,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q58",
       "question": "Which field in a Kubernetes NetworkPolicy allows you to restrict traffic based on the namespace from which it originates or to which it is destined?",
       "multiSelect": false,
       "answers": [
@@ -11405,7 +11067,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q59",
       "question": "What component is responsible for token-based authentication in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -11438,7 +11099,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q60",
       "question": "Which Kubernetes admission controller can be used to enforce default values in Pods, for example, to automatically add certain labels or annotations?",
       "multiSelect": false,
       "answers": [
@@ -11471,7 +11131,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q61",
       "question": "Which of the following resource quota types is used to limit the number of services of type LoadBalancer that can be created in a namespace?",
       "multiSelect": false,
       "answers": [
@@ -11504,7 +11163,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q62",
       "question": "Which Kubernetes resource is used to enforce specific security behaviors in a Pod specification?",
       "multiSelect": false,
       "answers": [
@@ -11537,7 +11195,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q63",
       "question": "Your organization has strict security requirements, and you need to ensure that any secrets used in your Kubernetes Pods are not written to disk at any point. What is the best way to handle secrets in this case?",
       "multiSelect": false,
       "answers": [
@@ -11570,7 +11227,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam5_q64",
       "question": "Which of the following statements is true regarding the difference between a ConfigMap and a Secret in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -11603,7 +11259,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q65",
       "question": "You're using Prometheus to monitor your Kubernetes cluster. The team wants to ensure that metrics are stored long-term, even if the Prometheus instance goes down. Which of the following solutions is best suited for this requirement?",
       "multiSelect": false,
       "answers": [
@@ -11636,7 +11291,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q66",
       "question": "What happens when a Node becomes unreachable according to the Kubernetes control plane?",
       "multiSelect": false,
       "answers": [
@@ -11669,7 +11323,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam5_q67",
       "question": "Which of the following roles allows a user to get information about Pods but not to delete them, in a particular namespace?",
       "multiSelect": false,
       "answers": [
@@ -11708,7 +11361,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q68",
       "question": "In a Kubernetes cluster, what is the primary role of a Service?",
       "multiSelect": false,
       "answers": [
@@ -11741,7 +11393,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam5_q69",
       "question": "Which Kubernetes Service type makes use of IP addresses from the underlying host node’s network space to forward traffic to Pods?",
       "multiSelect": false,
       "answers": [
@@ -11774,7 +11425,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam5_q70",
       "question": "You need to implement network policies to isolate microservices running in the same namespace. However, you find that after creating NetworkPolicy resources, the policies do not seem to be enforced. What could be the issue?",
       "multiSelect": false,
       "answers": [
@@ -11807,7 +11457,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q1",
       "question": "Which of the following storage options is least suitable for a stateful cloud-native application in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -11840,7 +11489,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q2",
       "question": "Which of the following is a cluster-wide, CNI-compatible, Layer 7 load balancer for Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -11873,7 +11521,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q3",
       "question": "Which metric type is not supported out-of-the-box by the Horizontal Pod Autoscaler in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -11912,7 +11559,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q4",
       "question": "Which of the following statements best describes the \"Four Golden Signals\" in Cloud Native Observability?",
       "multiSelect": false,
       "answers": [
@@ -11945,7 +11591,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q5",
       "question": "Which of the following best describes a Kubernetes Namespace?",
       "multiSelect": false,
       "answers": [
@@ -11978,7 +11623,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q6",
       "question": "What is a significant disadvantage of the \"Lift-and-Shift\" approach when migrating traditional applications to a cloud-native environment?",
       "multiSelect": false,
       "answers": [
@@ -12011,7 +11655,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q7",
       "question": "Your organization is running a highly available Kubernetes cluster with multiple master nodes and etcd instances distributed across different geographic locations. The cluster has been experiencing intermittent issues where control plane components become unresponsive for a short duration. What could be a primary reason for this behavior?",
       "multiSelect": false,
       "answers": [
@@ -12044,7 +11687,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q8",
       "question": "In a Kubernetes cluster, which component is responsible for maintaining the desired state of the system, such as scaling up or down, updating deployments, and creating new ReplicaSets?",
       "multiSelect": false,
       "answers": [
@@ -12077,7 +11719,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q9",
       "question": "Which of the following database characteristics is generally NOT suited for a cloud-native architecture?",
       "multiSelect": false,
       "answers": [
@@ -12110,7 +11751,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q10",
       "question": "You are responsible for managing a Kubernetes cluster that needs to run both high-priority production workloads and low-priority development workloads. You want to ensure that development workloads do not starve production workloads of resources. Which of the following is the most suitable solution?",
       "multiSelect": false,
       "answers": [
@@ -12143,7 +11783,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q11",
       "question": "In a cloud-native environment with Istio as the service mesh, which Istio component is responsible for intercepting all network communication between microservices in your service mesh?",
       "multiSelect": false,
       "answers": [
@@ -12176,7 +11815,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q12",
       "question": "You are in charge of a Kubernetes cluster and notice that one of the worker nodes has been consistently running at high CPU utilization. You suspect that a specific Pod deployed on this node is responsible for the resource hogging. Which of the following commands would you use to identify the CPU usage of all the containers in that specific Pod?",
       "multiSelect": false,
       "answers": [
@@ -12209,7 +11847,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q13",
       "question": "In an Istio-based service mesh, what is the primary role of the VirtualService custom resource?",
       "multiSelect": false,
       "answers": [
@@ -12242,7 +11879,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q14",
       "question": "You have deployed an application in Kubernetes using multiple pods across different nodes. Each pod needs to communicate with other pods in the cluster, regardless of which node they are deployed on. However, you are noticing that pods are unable to reach each other. What could be the reason for this issue?",
       "multiSelect": false,
       "answers": [
@@ -12275,7 +11911,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q15",
       "question": "When scaling a stateful application in Kubernetes, what role does the \"Headless Service\" play?",
       "multiSelect": false,
       "answers": [
@@ -12308,7 +11943,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q16",
       "question": "In a Cloud Native Observability context, why might you choose to use Thanos or Cortex in combination with Prometheus?",
       "multiSelect": false,
       "answers": [
@@ -12341,7 +11975,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q17",
       "question": "How can you ensure that a Pod gets scheduled on a Node with an SSD disk type?",
       "multiSelect": false,
       "answers": [
@@ -12374,7 +12007,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q18",
       "question": "You are working on a cloud-native open-source project and have noticed a lack of documentation for one of the features you rely on. You want to suggest improvements and help maintain the project. Before you proceed, you decide to review the project's governance model to understand how decisions are made and who is responsible for maintaining the project. Based on common open-source governance models, what is the most effective way to propose improvements and influence decisions within the project?",
       "multiSelect": false,
       "answers": [
@@ -12407,7 +12039,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q19",
       "question": "You are working as a DevOps engineer for an e-commerce platform that needs to frequently release updates to its Kubernetes-based microservices architecture. To ensure continuous integration and delivery (CI/CD) of these services, you want to design a CI/CD pipeline that automates the entire process from code changes to deployment on Kubernetes. The pipeline needs to handle building container images, running tests, and deploying successful builds to a Kubernetes cluster. Which is the best CI/CD pipeline design for this requirement?",
       "multiSelect": false,
       "answers": [
@@ -12440,7 +12071,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam6_q20",
       "question": "Which type of Kubernetes object would you use to restrict API access for certain users to only be able to read ConfigMaps in a particular Namespace?",
       "multiSelect": false,
       "answers": [
@@ -12473,7 +12103,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q21",
       "question": "Which Kubernetes component is responsible for mounting storage volumes to Pods?",
       "multiSelect": false,
       "answers": [
@@ -12506,7 +12135,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q22",
       "question": "In a Kubernetes cluster, which component is primarily responsible for monitoring the health of nodes and evicting Pods from unhealthy nodes?",
       "multiSelect": false,
       "answers": [
@@ -12539,7 +12167,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q23",
       "question": "You are managing a Kubernetes cluster with nodes that have different hardware capabilities. Your cluster hosts machine learning workloads that require GPU resources. You want to make sure that only the nodes with GPUs are scheduled for these workloads. What is the most appropriate method to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -12572,7 +12199,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q24",
       "question": "You are managing a Kubernetes cluster with three nodes in a multi-zone architecture. You notice that one of your critical applications, deployed as a StatefulSet with persistent storage, is experiencing increased latency. Upon further inspection, you see that the pods are scheduled across zones, causing latency in storage access. What is the most appropriate solution to address this issue?",
       "multiSelect": false,
       "answers": [
@@ -12605,7 +12231,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q25",
       "question": "You are deploying a stateful application that requires high I/O performance. How can you ensure that your Pods are scheduled on Nodes with SSD storage?",
       "multiSelect": false,
       "answers": [
@@ -12638,7 +12263,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q26",
       "question": "Which of the following Kubernetes features or practices is least likely to provide effective cost management for a multi-tenant cluster?",
       "multiSelect": false,
       "answers": [
@@ -12671,7 +12295,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q27",
       "question": "What is a significant disadvantage of using Reactive Scaling compared to Predictive Scaling in a Cloud-Native environment?",
       "multiSelect": false,
       "answers": [
@@ -12704,7 +12327,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q28",
       "question": "What is the primary function of a Kubernetes Ingress Controller in the context of container orchestration?",
       "multiSelect": false,
       "answers": [
@@ -12737,7 +12359,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q29",
       "question": "What is the role of \"Custom Resource Definitions\" (CRDs) in the context of the Kubernetes API?",
       "multiSelect": false,
       "answers": [
@@ -12770,7 +12391,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q30",
       "question": "Your team is deploying a machine learning application on Kubernetes. The application requires a lot of memory and CPU resources during training jobs, but once training is complete, resource consumption drops significantly. To optimize cost and performance, you want both the application pods and the underlying infrastructure to scale automatically based on resource usage. What combination of autoscaling strategies should you employ?",
       "multiSelect": false,
       "answers": [
@@ -12803,7 +12423,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q31",
       "question": "Your organization is deploying a set of stateful applications that require stable network identities and storage. Which Kubernetes feature would be most appropriate to fulfill these requirements?",
       "multiSelect": false,
       "answers": [
@@ -12836,7 +12455,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q32",
       "question": "What is the primary purpose of a sidecar pattern in a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -12869,7 +12487,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q33",
       "question": "You are responsible for setting up networking in a Kubernetes cluster, with a special focus on security. Which of the following approaches would best satisfy your requirements? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -12908,7 +12525,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q34",
       "question": "In a cloud-native application architecture, you're planning to use a combination of microservices and serverless functions. You're concerned about the possible difficulties with regards to tracing and monitoring. Which of the following options would be the most suitable solution to implement tracing and monitoring effectively in this architecture?",
       "multiSelect": false,
       "answers": [
@@ -12941,7 +12557,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q35",
       "question": "You are tasked with setting up a database application that requires read-write access from multiple pods within the same namespace. Which storage solution in a Kubernetes environment would best serve this use case?",
       "multiSelect": false,
       "answers": [
@@ -12974,7 +12589,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q36",
       "question": "You are implementing a CI/CD pipeline for a Kubernetes application that consists of a web server, a database, and a message queue. Each component has a different scaling requirement. How would you best manage this complexity during deployments?",
       "multiSelect": false,
       "answers": [
@@ -13007,7 +12621,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam6_q37",
       "question": "You are responsible for maintaining a cloud-native application running on a Kubernetes cluster. Recently, your team noticed some performance issues, and you suspect resource usage is not being properly monitored. You decide to implement observability using Prometheus and Grafana for monitoring and alerting. Which of the following is the most accurate method to monitor resource usage and set up alerts for CPU and memory in your Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -13040,7 +12653,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q38",
       "question": "In a Kubernetes-based cloud-native application using Serverless architecture, what kind of scaling is most commonly associated with Function-as-a-Service (FaaS)?",
       "multiSelect": false,
       "answers": [
@@ -13073,7 +12685,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q39",
       "question": "You are overseeing a large Kubernetes deployment with hundreds of microservices. CPU and memory resources are becoming strained. What are the two most effective strategies for optimizing resource usage without affecting the availability of services? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -13112,7 +12723,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q40",
       "question": "You have a critical application that needs to be highly available. It runs on a Kubernetes cluster with nodes that have varying capabilities. Some nodes have GPUs, while others do not. You want to schedule the pods of this application preferentially on nodes with GPUs, but you also want to use nodes without GPUs if none are available. Which Kubernetes features should you use to accomplish this? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -13151,7 +12761,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q41",
       "question": "In a cloud-native organization, who is most likely to be responsible for setting up and managing autoscaling policies in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -13184,7 +12793,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q42",
       "question": "You are tasked with setting up a secure Kubernetes cluster. One of your requirements is to ensure that only authorized pods can communicate with the Kubernetes API server. What is the most direct way to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -13217,7 +12825,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q43",
       "question": "What is the best practice for storing sensitive data like API keys in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -13250,7 +12857,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q44",
       "question": "What type of Kubernetes object should you use to run a one-off task that must complete successfully before other tasks can proceed?",
       "multiSelect": false,
       "answers": [
@@ -13283,7 +12889,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q45",
       "question": "What is the primary purpose of a sidecar pattern in a cloud-native application?",
       "multiSelect": false,
       "answers": [
@@ -13316,7 +12921,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q46",
       "question": "In a Kubernetes cluster, what type of object is responsible for specifying desired configurations across multiple nodes?",
       "multiSelect": false,
       "answers": [
@@ -13349,7 +12953,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q47",
       "question": "What is a potential pitfall in Kubernetes that can inadvertently lead to increased costs if not properly managed?",
       "multiSelect": false,
       "answers": [
@@ -13382,7 +12985,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q48",
       "question": "You are deploying a new version of a microservice-based application to a Kubernetes cluster. The microservice runs in multiple pods behind a Kubernetes Service. The business requirement is to ensure zero downtime during the deployment while allowing rollback if a problem is discovered after the update. To meet these requirements, you decide to use a rolling update strategy. Which of the following is the most appropriate action to perform a rolling update while ensuring zero downtime?",
       "multiSelect": false,
       "answers": [
@@ -13415,7 +13017,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam6_q49",
       "question": "Which of the following components is not involved in the core resource metrics pipeline for monitoring Pods and Nodes in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -13448,7 +13049,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q50",
       "question": "You are managing a Kubernetes cluster that consists of three nodes: node1, node2, and node3. node1 and node2 are general-purpose nodes, while node3 is designated as a high-performance node with a taint: node3=high-performance:NoSchedule. Your goal is to schedule a pod that requires high-performance resources but also needs to tolerate potential failures by running in a multi-node setup. You are asked to ensure that the pod can run on any of the nodes, but it should prefer to run on the high-performance node (node3), if possible. You decide to use node affinity and tolerations in your pod spec. Which configuration ensures that the pod prefers node3 but can still run on node1 or node2 if necessary?",
       "multiSelect": false,
       "answers": [
@@ -13481,7 +13081,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q51",
       "question": "You are in charge of optimizing a Kubernetes cluster that runs a machine learning application requiring high CPU and memory resources. Users have reported application slowdowns. You suspect that resources are not allocated optimally. What are the two best practices to manage container resources for this scenario? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -13520,7 +13119,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q52",
       "question": "You have deployed a Kubernetes application that includes both stateful and stateless components. The application requires consistent networking and storage access for stateful components, even in the case of pod rescheduling. Which Kubernetes controller would best handle these requirements?",
       "multiSelect": false,
       "answers": [
@@ -13553,7 +13151,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q53",
       "question": "You're a cloud architect in an organization that is transitioning to a cloud-native architecture. Your company's governance policy mandates that all applications must be auditable and compliant with data sovereignty laws. Which of the following approaches would be the most compliant with this requirement?",
       "multiSelect": false,
       "answers": [
@@ -13586,7 +13183,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q54",
       "question": "You are a Security Engineer responsible for maintaining the security of a cloud-native application deployed on Kubernetes. Your company has a policy that requires zero-trust networking. Which of the following options should you implement to align with this policy?",
       "multiSelect": false,
       "answers": [
@@ -13619,7 +13215,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam6_q55",
       "question": "You are the Kubernetes cluster administrator and are concerned about Pod security. You want to enforce a policy that disallows running containers as root and prevents privilege escalation. Which two Kubernetes features can help enforce these policies? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -13658,7 +13253,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q56",
       "question": "You have a critical application pod that keeps getting evicted from nodes. The pod has resource requests set but no limits. What is the most likely reason and solution?",
       "multiSelect": false,
       "answers": [
@@ -13691,7 +13285,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q57",
       "question": "Which of the following is not generally considered a best practice in a GitOps workflow for Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -13724,7 +13317,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam6_q58",
       "question": "When using Kubernetes, which metric is not typically used by the Horizontal Pod Autoscaler (HPA) to make autoscaling decisions?",
       "multiSelect": false,
       "answers": [
@@ -13757,7 +13349,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q59",
       "question": "In Cloud Native Architecture, what does the term \"Idempotency\" primarily refer to?",
       "multiSelect": false,
       "answers": [
@@ -13790,7 +13381,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q60",
       "question": "Which Container Network Interface (CNI) plugin uses a flat Layer 2 network to connect Pods across nodes?",
       "multiSelect": false,
       "answers": [
@@ -13823,7 +13413,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q61",
       "question": "You are setting up a Kubernetes cluster in a production environment that requires high availability and scalability. The cluster will host mission-critical applications, and you need to ensure that the control plane is highly available while also enabling seamless scaling of the worker nodes. You have multiple availability zones and want to distribute both the control plane and worker nodes across them. Which approach would best ensure high availability and scalability in this scenario?",
       "multiSelect": false,
       "answers": [
@@ -13856,7 +13445,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q62",
       "question": "Your organization has recently migrated its microservices architecture to Kubernetes, and you are responsible for ensuring the security of container runtimes. During an audit, it was discovered that some containers in production have full root privileges and can access the host file system. You need to implement security measures that limit the potential damage of a compromised container while still allowing your application to function correctly. Which of the following actions would best mitigate the security risk while allowing the application to run?",
       "multiSelect": false,
       "answers": [
@@ -13889,7 +13477,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q63",
       "question": "Your cloud-native application running on Kubernetes has recently experienced performance issues. As a Cloud Operations Engineer, which telemetry component would provide you with the most useful insights into identifying bottlenecks in service-to-service communication within the cluster?",
       "multiSelect": false,
       "answers": [
@@ -13922,7 +13509,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam6_q64",
       "question": "You're tasked with designing a cloud-native application that can dynamically adapt to changes in the topology of your underlying cloud infrastructure. This includes handling failures gracefully. Which of the following would be the most effective pattern to achieve this?",
       "multiSelect": false,
       "answers": [
@@ -13955,7 +13541,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q65",
       "question": "What is the primary benefit of using a \"strangler pattern\" when migrating a monolithic application to a cloud-native architecture?",
       "multiSelect": false,
       "answers": [
@@ -13988,7 +13573,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam6_q66",
       "question": "Which of the following Kubernetes controllers is best suited for managing a batch job that needs to run to completion?",
       "multiSelect": false,
       "answers": [
@@ -14027,7 +13611,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q67",
       "question": "What is the least effective strategy for deploying a multi-tier application in Kubernetes with the goal of scaling different components independently?",
       "multiSelect": false,
       "answers": [
@@ -14060,7 +13643,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q68",
       "question": "You are designing a cloud-native application using a microservices architecture. Which of the following considerations should you take into account for efficient service-to-service communication? (Select two)",
       "multiSelect": true,
       "answers": [
@@ -14099,7 +13681,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam6_q69",
       "question": "In Kubernetes, what resource can you use to limit the CPU and memory usage of a container?",
       "multiSelect": false,
       "answers": [
@@ -14132,7 +13713,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam6_q70",
       "question": "Which of the following storage options is least suitable for a stateful cloud-native application in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -14165,7 +13745,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q1",
       "question": "What is the name of the collective group of individuals responsible for overseeing the overall direction of the Kubernetes project in the CNCF?",
       "multiSelect": false,
       "answers": [
@@ -14198,7 +13777,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q2",
       "question": "Which of the following statements best describes how a Kubernetes manifest uses a declarative model?",
       "multiSelect": false,
       "answers": [
@@ -14231,7 +13809,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q3",
       "question": "How can a single Kubernetes cluster be divided into virtual clusters, providing isolation and organization for workloads?",
       "multiSelect": false,
       "answers": [
@@ -14264,7 +13841,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q4",
       "question": "You are deploying a multi-tier application that includes a frontend and backend service. You want the frontend service to automatically find and connect to only healthy backend service instances. Which cloud-native networking solution would help meet this requirement?",
       "multiSelect": false,
       "answers": [
@@ -14297,7 +13873,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q5",
       "question": "What security mechanism would you use to secure (encrypt) communication between internal Kubernetes services within a cluster?",
       "multiSelect": false,
       "answers": [
@@ -14330,7 +13905,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q6",
       "question": "Prometheus follows what type of model for collecting metrics from target systems?",
       "multiSelect": false,
       "answers": [
@@ -14363,7 +13937,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q7",
       "question": "What is the primary purpose of using a CronJob resource in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -14396,7 +13969,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q8",
       "question": "You have a Deployment manifest for 'bk-app-deployment' with 3 replicas and selector matchLabels: app: bk-app. The pod template has labels: app: bk-app, tier: backend. How does the selector work?",
       "multiSelect": false,
       "answers": [
@@ -14429,7 +14001,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q9",
       "question": "In Kubernetes, what is the primary purpose of a PVC?",
       "multiSelect": false,
       "answers": [
@@ -14462,7 +14033,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q10",
       "question": "What typically happens when an image specified in a pod's configuration cannot be downloaded during deployment?",
       "multiSelect": false,
       "answers": [
@@ -14495,7 +14065,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q11",
       "question": "What is the primary purpose of etcd in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -14528,7 +14097,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q12",
       "question": "Which is NOT a benefit of using open standards when developing or integrating different technologies?",
       "multiSelect": false,
       "answers": [
@@ -14561,7 +14129,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q13",
       "question": "What is a container in the context of computing and software development?",
       "multiSelect": false,
       "answers": [
@@ -14594,7 +14161,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q14",
       "question": "Which of the following best describes the benefits of observability of a system or application?",
       "multiSelect": false,
       "answers": [
@@ -14627,7 +14193,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q15",
       "question": "Why might you use multiple custom schedulers alongside the default scheduler in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -14660,7 +14225,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q16",
       "question": "What is the term for the process of bringing the observed state of an application or system in line with the desired state?",
       "multiSelect": false,
       "answers": [
@@ -14693,7 +14257,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q17",
       "question": "In Kubernetes, what is a \"Job\"?",
       "multiSelect": false,
       "answers": [
@@ -14726,7 +14289,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q18",
       "question": "What is a key reason for using Open Policy Agent (OPA) in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -14759,7 +14321,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q19",
       "question": "What architecture is commonly associated with breaking up a larger, monolith application into smaller, loosely coupled services that represent a specific function or application?",
       "multiSelect": false,
       "answers": [
@@ -14792,7 +14353,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q20",
       "question": "When measuring the performance of a system, SLO/SLA/SLI are commonly used to define targets or goals. What does the acronym SLI stand for?",
       "multiSelect": false,
       "answers": [
@@ -14825,7 +14385,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q21",
       "question": "What is the primary function of the Kubernetes project?",
       "multiSelect": false,
       "answers": [
@@ -14858,7 +14417,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q22",
       "question": "What are the benefits of implementing a plugin architecture for various Kubernetes components, including CSI, CNI, and SMI interfaces?",
       "multiSelect": false,
       "answers": [
@@ -14891,7 +14449,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q23",
       "question": "In the event that the Kubernetes control plane becomes unavailable, what happens to the existing pods that are running on a cluster?",
       "multiSelect": false,
       "answers": [
@@ -14924,7 +14481,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q24",
       "question": "Rather than running a container directly, what does Kubernetes use to schedule and run the container?",
       "multiSelect": false,
       "answers": [
@@ -14957,7 +14513,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam7_q25",
       "question": "What limitation is associated with using node selectors in Kubernetes for pod scheduling?",
       "multiSelect": false,
       "answers": [
@@ -14990,7 +14545,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q26",
       "question": "What role requires experience with programming languages as well as operational tools such as deployment, monitoring, and logging?",
       "multiSelect": false,
       "answers": [
@@ -15023,7 +14577,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q27",
       "question": "How can you use a selector in Kubernetes to identify and manage resources based on their labels?",
       "multiSelect": false,
       "answers": [
@@ -15056,7 +14609,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q28",
       "question": "Workload-related objects, such as statefulsets and deployments, are defined in what popular API group?",
       "multiSelect": false,
       "answers": [
@@ -15089,7 +14641,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q29",
       "question": "Which Kubernetes controller is responsible for managing workloads that require persistent data?",
       "multiSelect": false,
       "answers": [
@@ -15122,7 +14673,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q30",
       "question": "Which of the following is NOT a valid Kubernetes SIG?",
       "multiSelect": false,
       "answers": [
@@ -15155,7 +14705,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q31",
       "question": "After collecting metrics, what popular tool is often integrated with Prometheus to display dashboards and present the metrics in graphical form?",
       "multiSelect": false,
       "answers": [
@@ -15188,7 +14737,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q32",
       "question": "Which organization is responsible for maintaining the Kubernetes project and serves as the governing body for any updates and changes?",
       "multiSelect": false,
       "answers": [
@@ -15221,7 +14769,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q33",
       "question": "What does the term horizontal scaling refer to in the context of system architecture?",
       "multiSelect": false,
       "answers": [
@@ -15254,7 +14801,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q34",
       "question": "What is the primary purpose of etcd in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -15287,7 +14833,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q35",
       "question": "Which of the following is a cloud-native architecture that allows developers to run custom server-side code in containers that are commonly managed by a cloud service provider?",
       "multiSelect": false,
       "answers": [
@@ -15320,7 +14865,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q36",
       "question": "You are managing a Kubernetes cluster and need to see a list of all the pods. What command can you run to view all of the pods?",
       "multiSelect": false,
       "answers": [
@@ -15353,7 +14897,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q37",
       "question": "What is the main purpose of using namespaces in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -15386,7 +14929,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q38",
       "question": "What is the primary purpose of using annotations in a Kubernetes definition file?",
       "multiSelect": false,
       "answers": [
@@ -15419,7 +14961,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q39",
       "question": "In Kubernetes, what is the primary role of a \"Service,\" and how does it achieve this role?",
       "multiSelect": false,
       "answers": [
@@ -15452,7 +14993,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q40",
       "question": "What are the benefits of using Git to store and manage both infrastructure and application code?",
       "multiSelect": false,
       "answers": [
@@ -15485,7 +15025,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q41",
       "question": "You have an application running on a Kubernetes cluster but want to manually scale out the number of pods. What is the process to scale the number of pods without impacting existing workloads in the deployment?",
       "multiSelect": false,
       "answers": [
@@ -15518,7 +15057,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q42",
       "question": "When using a GitOps practice, what happens when a merge request is approved to a Git repository?",
       "multiSelect": false,
       "answers": [
@@ -15551,7 +15089,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam7_q43",
       "question": "What is the difference between static pods and pods created using DaemonSets? (select two)",
       "multiSelect": true,
       "answers": [
@@ -15584,7 +15121,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q44",
       "question": "Which tool would you use to simplify the installation and management of a complex web application on a Kubernetes cluster on Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -15617,7 +15153,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam7_q45",
       "question": "You have multiple workloads running on your Kubernetes cluster and must collect logs for security and monitoring purposes. To achieve this, you need a log collector running on every node in the cluster.",
       "multiSelect": false,
       "answers": [
@@ -15656,7 +15191,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q46",
       "question": "Which definition offers the most precise representation of logs within the context of system observability?",
       "multiSelect": false,
       "answers": [
@@ -15689,7 +15223,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q47",
       "question": "Which of the following are key concepts to building a resilient and self-healing application? (select four)",
       "multiSelect": true,
       "answers": [
@@ -15728,7 +15261,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q48",
       "question": "What Kubernetes feature will ensure the scheduler distributes an application across user-defined fault zones, such as physical nodes?",
       "multiSelect": false,
       "answers": [
@@ -15761,7 +15293,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q49",
       "question": "Prometheus is an open-source monitoring tool designed to collect data from systems. From the list below, what type of data is Prometheus designed to collect?",
       "multiSelect": false,
       "answers": [
@@ -15794,7 +15325,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam7_q50",
       "question": "In cloud-native architecture, what approach allows you to define the desired outcome of the architecture without writing a step-by-step procedure to achieve a goal?",
       "multiSelect": false,
       "answers": [
@@ -15827,7 +15357,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q51",
       "question": "What component in a Kubernetes cluster is responsible for running workloads and applications?",
       "multiSelect": false,
       "answers": [
@@ -15860,7 +15389,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q52",
       "question": "What cloud-native architecture feature enables the ability for an application or service to adjust resources based on user demand automatically?",
       "multiSelect": false,
       "answers": [
@@ -15893,7 +15421,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam7_q53",
       "question": "What component of Kubernetes is responsible for downloading the image and starting the container?",
       "multiSelect": false,
       "answers": [
@@ -15926,7 +15453,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q54",
       "question": "You're managing a Kubernetes cluster with different user groups, each with its own resource allocation and scheduling needs. To address this, you've started using Kubernetes Scheduler Profiles. What is the purpose of Scheduler Profiles?",
       "multiSelect": false,
       "answers": [
@@ -15959,7 +15485,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q55",
       "question": "What is a common name used for the kubectl configuration file?",
       "multiSelect": false,
       "answers": [
@@ -15992,7 +15517,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q56",
       "question": "In Kubernetes, what are the two primary update strategies for managing changes to a deployment?",
       "multiSelect": false,
       "answers": [
@@ -16025,7 +15549,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam7_q57",
       "question": "You are configuring authentication for your Kubernetes cluster and are considering various methods. Why is using a static password or token file generally not recommended for authenticating users in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -16058,7 +15581,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam7_q58",
       "question": "You have a Kubernetes cluster with nodes that have specialized hardware accelerators (e.g., GPUs) and nodes without accelerators. You want to ensure that a specific set of pods, labeled as app=ml-app, always run on nodes with GPUs to maximize performance.",
       "multiSelect": false,
       "answers": [
@@ -16097,7 +15619,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam7_q59",
       "question": "What is the primary purpose of using 'Pod Anti-Affinity' in Kubernetes scheduling?",
       "multiSelect": false,
       "answers": [
@@ -16130,7 +15651,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam7_q60",
       "question": "Which best represents the definition of Continuous Integration (CI)?",
       "multiSelect": false,
       "answers": [
@@ -16163,7 +15683,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q1",
       "question": "Which of the following strategies can be used to help reduce costs in a public cloud platform? (select three)",
       "multiSelect": true,
       "answers": [
@@ -16196,7 +15715,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q2",
       "question": "What feature does Kubernetes use to implement the pod network to create a large, flat open network that pods can use to communicate on?",
       "multiSelect": false,
       "answers": [
@@ -16229,7 +15747,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q3",
       "question": "Which of the following components are typically found on worker nodes in a Kubernetes cluster? (select two)",
       "multiSelect": true,
       "answers": [
@@ -16262,7 +15779,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q4",
       "question": "What are two different ways that you can create new pods on a worker node with a definition file? (select two)",
       "multiSelect": true,
       "answers": [
@@ -16295,7 +15811,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q5",
       "question": "What are the benefits of Special Interest Group in managing the Kubernetes project? (select three)",
       "multiSelect": true,
       "answers": [
@@ -16328,7 +15843,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q6",
       "question": "When creating a resource definition file, what section would you define labels that apply to the resource itself?",
       "multiSelect": false,
       "answers": [
@@ -16361,7 +15875,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q7",
       "question": "What happens when the ArgoCD operator detects changes in the repo used to store Kubernetes manifests?",
       "multiSelect": false,
       "answers": [
@@ -16394,7 +15907,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q8",
       "question": "Knative and OpenFaas are examples of what kind of platform commonly used to deploy and execute functions on Kubernetes clusters?",
       "multiSelect": false,
       "answers": [
@@ -16427,7 +15939,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q9",
       "question": "What declarative GitOps tool was developed by Intuit and is a graduated CNCF project?",
       "multiSelect": false,
       "answers": [
@@ -16460,7 +15971,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q10",
       "question": "How do you specify resource limits for CPU and memory in a Kubernetes resource definition file, such as a pod manifest?",
       "multiSelect": false,
       "answers": [
@@ -16493,7 +16003,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q11",
       "question": "In the context of service mesh, what does \"east-west traffic\" refer to?",
       "multiSelect": false,
       "answers": [
@@ -16526,7 +16035,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q12",
       "question": "What year did Google initially develop Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -16559,7 +16067,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q13",
       "question": "You have a single Kubernetes cluster that you want to run multiple workloads managed by different teams. Therefore, you need to isolate the users and workloads. What Kubernetes feature can be used to safely and easily meet these requirements?",
       "multiSelect": false,
       "answers": [
@@ -16592,7 +16099,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q14",
       "question": "Which fundamental data storage concept does Prometheus rely on to effectively organize and manage collected metric data?",
       "multiSelect": false,
       "answers": [
@@ -16625,7 +16131,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q15",
       "question": "You are a Kubernetes administrator managing a production cluster. You need to perform a rolling update of a deployment using kubectl. What is a critical requirement for successfully executing this command?",
       "multiSelect": false,
       "answers": [
@@ -16658,7 +16163,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q16",
       "question": "Which of the following is NOT a requirement for autoscaling to be cloud native?",
       "multiSelect": false,
       "answers": [
@@ -16691,7 +16195,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q17",
       "question": "When scheduling a pod, what phases are used to determine the best node to assign the pod?",
       "multiSelect": false,
       "answers": [
@@ -16724,7 +16227,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q18",
       "question": "In your Kubernetes cluster, you have a pod (web) that runs two containers: an app and a sidecar container. How can you get detailed information about the pod to view the container names?",
       "multiSelect": false,
       "answers": [
@@ -16757,7 +16259,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q19",
       "question": "What is the primary purpose of using spread constraints in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -16790,7 +16291,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q20",
       "question": "What is a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -16823,7 +16323,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q21",
       "question": "What are some advantages of using a hosted Kubernetes service, such as AWS EKS or Google Kubernetes Engine (GKE), compared to managing your own Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -16856,7 +16355,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q22",
       "question": "How often are new versions of Kubernetes released?",
       "multiSelect": false,
       "answers": [
@@ -16889,7 +16387,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q23",
       "question": "Once an API is updated to version 1, (v1) what is the term used to refer to this stage of the API's development?",
       "multiSelect": false,
       "answers": [
@@ -16922,7 +16419,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q24",
       "question": "When it comes to downloading or searching for containerized versions of applications, where are the images typically stored?",
       "multiSelect": false,
       "answers": [
@@ -16955,7 +16451,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q25",
       "question": "What command line (CLI) utility is used for interacting and managing a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -16988,7 +16483,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q26",
       "question": "What is NOT a benefit of using a pull-based system like Prometheus for the observability of a system or application?",
       "multiSelect": false,
       "answers": [
@@ -17021,7 +16515,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q27",
       "question": "You have been tasked with refactoring an existing application to make it cloud-native. What benefits can the organization expect after completion? (select two)",
       "multiSelect": true,
       "answers": [
@@ -17054,7 +16547,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q28",
       "question": "When operating a managed service, it's common to have a contract between a vendor and a user that guarantees a specific Service Level Objective (SLO). What are these agreements often called?",
       "multiSelect": false,
       "answers": [
@@ -17087,7 +16579,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q29",
       "question": "You have a Kubernetes Deployment managing an application workload that has changing demand throughout the day. What feature of Kubernetes can be used to automatically scale the number of pods in the Deployment as load increases and delete pods when demand decreases?",
       "multiSelect": false,
       "answers": [
@@ -17120,7 +16611,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q30",
       "question": "What term best describes the process of automating container deployment and management, which includes managing connectivity and scaling based on user demand?",
       "multiSelect": false,
       "answers": [
@@ -17153,7 +16643,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q31",
       "question": "What is the primary purpose that the Open GitOps project aims to solve?",
       "multiSelect": false,
       "answers": [
@@ -17186,7 +16675,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q32",
       "question": "What is the primary purpose of annotations in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -17219,7 +16707,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q33",
       "question": "What group did the CNCF create to oversee and define GitOps in a vendor-neutral manner?",
       "multiSelect": false,
       "answers": [
@@ -17252,7 +16739,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam8_q34",
       "question": "In the context of container security, what is a recommended best practice regarding containers running as the root user?",
       "multiSelect": false,
       "answers": [
@@ -17285,7 +16771,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q35",
       "question": "What makes a role a \"full stack\" developer?",
       "multiSelect": false,
       "answers": [
@@ -17318,7 +16803,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q36",
       "question": "By default, Kubernetes implements a flat network to enable communication and networking between pods. What is this network called?",
       "multiSelect": false,
       "answers": [
@@ -17351,7 +16835,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q37",
       "question": "You've created a new Kubernetes manifest to run five instances of your production application in a deployment. Once applied, what Kubernetes component is responsible for changing the actual state to the desired state and ensuring the desired number of pods is always running?",
       "multiSelect": false,
       "answers": [
@@ -17384,7 +16867,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q38",
       "question": "You have created a namespace with default limits of 1 CPU and 256Mi of memory using a LimitRange. What happens when you deploy a pod without resource specifications?",
       "multiSelect": false,
       "answers": [
@@ -17417,7 +16899,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q39",
       "question": "When deploying a cloud-native application, what are the key factors to consider for using autoscaling for your application? (select three)",
       "multiSelect": true,
       "answers": [
@@ -17450,7 +16931,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q40",
       "question": "You want to use taints and tolerations in your Kubernetes environment and need to apply the settings. Select the correct answers below regarding taints and tolerances: (select two)",
       "multiSelect": true,
       "answers": [
@@ -17483,7 +16963,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q41",
       "question": "What are the default resources assigned to a pod if no limits are defined in the definition file and no LimitRange exists in the namespace?",
       "multiSelect": false,
       "answers": [
@@ -17516,7 +16995,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q42",
       "question": "What component of a Kubernetes cluster is made up of a collection of independent services that are essentially the \"brains\" of a cluster?",
       "multiSelect": false,
       "answers": [
@@ -17549,7 +17027,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q43",
       "question": "Which of the following are valid container runtimes that can be used with Kubernetes? (select three)",
       "multiSelect": true,
       "answers": [
@@ -17582,7 +17059,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q44",
       "question": "What are the three crucial Kubernetes services that operate on worker nodes? (select three)",
       "multiSelect": true,
       "answers": [
@@ -17615,7 +17091,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q45",
       "question": "You are a Kubernetes administrator frequently working in multiple namespaces. What is the most efficient way for you to configure the desired namespace so you don't have to specify the namespace each time you run a kubectl command?",
       "multiSelect": false,
       "answers": [
@@ -17648,7 +17123,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q46",
       "question": "What OCI standard defines the structure, format, and metadata of container images used in containerization technologies like Docker and Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -17681,7 +17155,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q47",
       "question": "What is the role of gVisor in a Kubernetes environment?",
       "multiSelect": false,
       "answers": [
@@ -17714,7 +17187,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q48",
       "question": "What type of deployment approach involves the creation of step-by-step instructions to provision an application or infrastructure?",
       "multiSelect": false,
       "answers": [
@@ -17747,7 +17219,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q49",
       "question": "You are managing user access in a Kubernetes cluster. You've noticed that Kubernetes lacks objects to represent normal user accounts, and you cannot add normal users to the cluster through an API call. What mechanism is typically used to manage user authentication and access to a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -17780,7 +17251,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q50",
       "question": "How can you manually assign a pod to a specific node in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -17813,7 +17283,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q51",
       "question": "In a cloud-native architecture, which solution is typically used to connect thousands of services across different clusters, providing features like load balancing, traffic management, and observability?",
       "multiSelect": false,
       "answers": [
@@ -17846,7 +17315,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q52",
       "question": "A Pod manifest has metadata labels: app: krausen-app, environment: production, tier: frontend. Which label selector would match this pod?",
       "multiSelect": false,
       "answers": [
@@ -17879,7 +17347,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q53",
       "question": "How do controllers operate within the Kubernetes ecosystem to maintain the desired state of resources in a cluster?",
       "multiSelect": false,
       "answers": [
@@ -17912,7 +17379,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam8_q54",
       "question": "What is the well-known local directory that kubelet periodically checks to deploy and manage static pods?",
       "multiSelect": false,
       "answers": [
@@ -17945,7 +17411,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q55",
       "question": "Which component represents the smallest deployable unit of computing that you can create and manage in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -17978,7 +17443,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q56",
       "question": "You see a resource request for 5 CPU units in a resource definition file. What is a CPU unit equivalent to?",
       "multiSelect": false,
       "answers": [
@@ -18011,7 +17475,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q57",
       "question": "When considering the security of credentials for a platform, which type of deployment is more secure?",
       "multiSelect": false,
       "answers": [
@@ -18044,7 +17507,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam8_q58",
       "question": "Which key component of Kubernetes is the cluster store built on and is responsible for storing configuration data and maintaining cluster state?",
       "multiSelect": false,
       "answers": [
@@ -18077,7 +17539,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam8_q59",
       "question": "You need to examine the logs for a pod named prd-nginx-app. What command would you use to display these logs to the CLI?",
       "multiSelect": false,
       "answers": [
@@ -18110,7 +17571,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam8_q60",
       "question": "What platform was the first to standardize the distribution of container images and comply with the OCI distribution specification?",
       "multiSelect": false,
       "answers": [
@@ -18143,7 +17603,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q1",
       "question": "The Kubernetes control plane is a critical component of using a Kubernetes cluster. Select the true statements about the control plane (select three)",
       "multiSelect": true,
       "answers": [
@@ -18176,7 +17635,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q2",
       "question": "Which of the following best defines serverless computing?",
       "multiSelect": false,
       "answers": [
@@ -18209,7 +17667,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q3",
       "question": "Your cloud-native application runs on Kubernetes. You want to ensure the pod has sufficient resources to serve your application without crashing. What feature can you use to automatically modify the resource limits on the initial deployment and throughout the pod's lifecycle?",
       "multiSelect": false,
       "answers": [
@@ -18242,7 +17699,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q4",
       "question": "What is a security concern related to the default storage of Secrets in the API server's underlying data store (etcd)?",
       "multiSelect": false,
       "answers": [
@@ -18275,7 +17731,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q5",
       "question": "What is the most important factor that helps ensure continuous operation and fault tolerance for the control plane in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -18308,7 +17763,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q6",
       "question": "What metric below would be the best choice for a service level indicator?",
       "multiSelect": false,
       "answers": [
@@ -18341,7 +17795,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q7",
       "question": "A common deployment model is to run the main application container along with a helper container inside a Pod. What is this helper container often referred to as?",
       "multiSelect": false,
       "answers": [
@@ -18374,7 +17827,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q8",
       "question": "Which of the following are subgroups available in the Kubernetes API? (select three)",
       "multiSelect": true,
       "answers": [
@@ -18407,7 +17859,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q9",
       "question": "What is the primary role of kube-proxy in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -18440,7 +17891,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q10",
       "question": "What distinguishes a DevOps Engineer from a Site Reliability Engineer (SRE) in terms of their roles and responsibilities?",
       "multiSelect": false,
       "answers": [
@@ -18473,7 +17923,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q11",
       "question": "In Kubernetes, why would you use a secret resource?",
       "multiSelect": false,
       "answers": [
@@ -18506,7 +17955,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q12",
       "question": "What Prometheus component is responsible for sending messages to systems or administrators via email, Slack messages, or 3rd party solutions?",
       "multiSelect": false,
       "answers": [
@@ -18539,7 +17987,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q13",
       "question": "You have submitted a new manifest to deploy your new production application. However, it seems the cluster cannot find a suitable node to schedule some of the containers. What state will the pods be in until Kubernetes finds an appropriate node?",
       "multiSelect": false,
       "answers": [
@@ -18572,7 +18019,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q14",
       "question": "What is Prometheus, and what is it commonly used for in the context of system monitoring and observability?",
       "multiSelect": false,
       "answers": [
@@ -18605,7 +18051,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q15",
       "question": "To prevent connectivity issues to application pods that might be scaling up and down, what Kubernetes object sits in front of pods to provide reliable networking and redirect traffic to healthy pods?",
       "multiSelect": false,
       "answers": [
@@ -18638,7 +18083,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q16",
       "question": "What is the primary purpose of a DaemonSet controller in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -18671,7 +18115,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q17",
       "question": "Which of the following best describes the difference between DevOps and Site Reliability Engineering(SRE)?",
       "multiSelect": false,
       "answers": [
@@ -18704,7 +18147,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q18",
       "question": "You have applied a taint to a Kubernetes node to ensure only certain workloads will run on this node. Additionally, you add a toleration to a web-app pod to match the taint so it can be scheduled on the node. However, you notice that the pod is NOT running on the desired node, and is running on a different node in the cluster.",
       "multiSelect": false,
       "answers": [
@@ -18743,7 +18185,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q19",
       "question": "What is the connection between a container image and a container in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -18776,7 +18217,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q20",
       "question": "You are a Kubernetes administrator responsible for ensuring that a specific node in your cluster is reserved for critical workloads. What Kubernetes features can you use to achieve this goal?",
       "multiSelect": false,
       "answers": [
@@ -18809,7 +18249,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q21",
       "question": "What are the characteristics of cloud-native architecture? (select three)",
       "multiSelect": true,
       "answers": [
@@ -18842,7 +18281,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q22",
       "question": "Which of the following are valid authentication mechanisms for a Kubernetes cluster? (select three)",
       "multiSelect": true,
       "answers": [
@@ -18875,7 +18313,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q23",
       "question": "What components do containers share when they run in the same Pod? (select three)",
       "multiSelect": true,
       "answers": [
@@ -18908,7 +18345,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q24",
       "question": "In a Kubernetes manifest file, what does the 'kind' field specify?",
       "multiSelect": false,
       "answers": [
@@ -18941,7 +18377,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q25",
       "question": "In a default Kubernetes cluster, what is the primary DNS configuration used for resolving service names to their respective pod IP addresses?",
       "multiSelect": false,
       "answers": [
@@ -18974,7 +18409,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q26",
       "question": "Which governing body is responsible for creating open standards for container formats and runtimes?",
       "multiSelect": false,
       "answers": [
@@ -19007,7 +18441,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q27",
       "question": "When comparing push-based and pull-based deployment approaches, what is the primary difference between the two?",
       "multiSelect": false,
       "answers": [
@@ -19040,7 +18473,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam9_q28",
       "question": "In the context of Kubernetes, what is Helm?",
       "multiSelect": false,
       "answers": [
@@ -19073,7 +18505,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q29",
       "question": "How can Prometheus gather a list of targets for metric collection besides using a static list of configured targets?",
       "multiSelect": false,
       "answers": [
@@ -19106,7 +18537,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q30",
       "question": "The CNCF has defined three maturity stages for projects. What are they in order?",
       "multiSelect": false,
       "answers": [
@@ -19139,7 +18569,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q31",
       "question": "How does Prometheus collect metrics from its configured targets?",
       "multiSelect": false,
       "answers": [
@@ -19172,7 +18601,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q32",
       "question": "What is the primary purpose of using a service account?",
       "multiSelect": false,
       "answers": [
@@ -19205,7 +18633,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q33",
       "question": "You have placed a ReplicaSet definition file in the /etc/kubernetes/manifests folder on a worker node in an attempt to create it. Why won't kubelet create the new resource?",
       "multiSelect": false,
       "answers": [
@@ -19238,7 +18665,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q34",
       "question": "What was the original container runtime that Kubernetes used to schedule and run containers?",
       "multiSelect": false,
       "answers": [
@@ -19271,7 +18697,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q35",
       "question": "What system allows containers to discover services and establish connectivity in an environment using service discovery and service mesh?",
       "multiSelect": false,
       "answers": [
@@ -19304,7 +18729,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q36",
       "question": "After months of work, you are ready to deploy your customer-facing application on a Kubernetes cluster. To ensure high availability and take advantage of failure domains, what feature can you use to ensure pods are scheduled across all available nodes?",
       "multiSelect": false,
       "answers": [
@@ -19337,7 +18761,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q37",
       "question": "In a Kubernetes definition file, what is the purpose of using the nodeName parameter when specifying a pod's scheduling preferences?",
       "multiSelect": false,
       "answers": [
@@ -19370,7 +18793,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q38",
       "question": "What are the benefits of using autoscaling for a system or application? (select three)",
       "multiSelect": true,
       "answers": [
@@ -19403,7 +18825,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q39",
       "question": "In Kubernetes, what is a key consideration when deciding whether to use an init-container or a sidecar container in a pod?",
       "multiSelect": false,
       "answers": [
@@ -19436,7 +18857,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q40",
       "question": "What is the primary purpose of etcd in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -19469,7 +18889,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q41",
       "question": "Which control plane service is responsible for distributing containers across multiple nodes within a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -19502,7 +18921,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q42",
       "question": "Your colleague has created a ReplicaSet definition with selector matchLabels: app: bryan-app, but the pod template has labels: app: bryan-app, version: v1. Will this ReplicaSet work correctly?",
       "multiSelect": false,
       "answers": [
@@ -19535,7 +18953,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q43",
       "question": "What are the benefits of using serverless functions on Kubernetes or a public cloud provider? (select three)",
       "multiSelect": true,
       "answers": [
@@ -19568,7 +18985,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q44",
       "question": "In terms of Kubernetes, what are the differences between a Working Group and a Special Interest Group (SIG)? (select two)",
       "multiSelect": true,
       "answers": [
@@ -19601,7 +19017,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q45",
       "question": "Which of the four GitOps pillars involves comparing the actual deployment against the desired state and making changes to ensure the infrastructure remains consistent?",
       "multiSelect": false,
       "answers": [
@@ -19634,7 +19049,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam9_q46",
       "question": "Which of the following best describes the architectural relationship between pods and containers?",
       "multiSelect": false,
       "answers": [
@@ -19667,7 +19081,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q47",
       "question": "Which of the following is NOT a reason to use namespaces in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -19700,7 +19113,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam9_q48",
       "question": "In Kubernetes, what is the primary difference between Taints and Tolerations and Node Affinity?",
       "multiSelect": false,
       "answers": [
@@ -19733,7 +19145,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q49",
       "question": "When you send commands to a Kubernetes cluster, what control plane component are you interacting with?",
       "multiSelect": false,
       "answers": [
@@ -19766,7 +19177,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q50",
       "question": "In Kubernetes, why might you consider creating a custom scheduler?",
       "multiSelect": false,
       "answers": [
@@ -19799,7 +19209,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q51",
       "question": "How can you label a node in Kubernetes to mark it for specific workloads or purposes?",
       "multiSelect": false,
       "answers": [
@@ -19832,7 +19241,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q52",
       "question": "What Kubernetes component represents an agent that runs on every Kubernetes worker node?",
       "multiSelect": false,
       "answers": [
@@ -19865,7 +19273,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q53",
       "question": "What are some of the popular service mesh solutions commonly used for managing microservices communication in Kubernetes clusters?",
       "multiSelect": false,
       "answers": [
@@ -19898,7 +19305,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q54",
       "question": "After building a new container image for an application, what must be done to deploy the new image to the Kubernetes cluster when following a GitOps workflow using ArgoCD?",
       "multiSelect": false,
       "answers": [
@@ -19931,7 +19337,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q55",
       "question": "What does CNCF stand for?",
       "multiSelect": false,
       "answers": [
@@ -19964,7 +19369,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q56",
       "question": "What does it mean for a container to be OCI-compliant in the context of containerization and container runtimes?",
       "multiSelect": false,
       "answers": [
@@ -19997,7 +19401,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam9_q57",
       "question": "Which significant development has occurred regarding Docker and its relationship with Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -20030,7 +19433,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam9_q58",
       "question": "What GitOps tool offers a full range of CI/CD capabilities, such as image building, preview environments, and deployment to Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -20063,7 +19465,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam9_q59",
       "question": "You are a Kubernetes administrator tasked with troubleshooting an issue inside a running pod. What is the most appropriate method to connect to the pod and run commands for debugging?",
       "multiSelect": false,
       "answers": [
@@ -20096,7 +19497,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam9_q60",
       "question": "To pull an image from your private repository, you must authenticate with the registry to download a private image. What command allows you to log in to Docker Hub?",
       "multiSelect": false,
       "answers": [
@@ -20129,7 +19529,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q1",
       "question": "How do controllers operate in Kubernetes to maintain cluster stability and desired configurations?",
       "multiSelect": false,
       "answers": [
@@ -20162,7 +19561,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q2",
       "question": "Which of the following is true regarding the design of cloud-native applications and systems?",
       "multiSelect": false,
       "answers": [
@@ -20195,7 +19593,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q3",
       "question": "You need to restrict the default communication between pods in a cluster. What feature can you use to accomplish this?",
       "multiSelect": false,
       "answers": [
@@ -20228,7 +19625,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q4",
       "question": "What is the definition of a static pod in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -20261,7 +19657,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q5",
       "question": "What is the correlation between a Service Level Indicator (SLI) and a Service Level Objective (SLO)?",
       "multiSelect": false,
       "answers": [
@@ -20294,7 +19689,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q6",
       "question": "What are the benefits of using higher-level controllers rather than deploying pods directly on a node?",
       "multiSelect": false,
       "answers": [
@@ -20327,7 +19721,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q7",
       "question": "You have a Kubernetes cluster with multiple worker nodes with different resource capacities. You've just created a new pod with specific resource requirements. What is the role of the Kubernetes scheduler in this situation?",
       "multiSelect": false,
       "answers": [
@@ -20360,7 +19753,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q8",
       "question": "Which of the following is true regarding containers running in the same pod? (select two)",
       "multiSelect": true,
       "answers": [
@@ -20393,7 +19785,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q9",
       "question": "Which of the following is NOT one of the major control plane services that run on every control plane node?",
       "multiSelect": false,
       "answers": [
@@ -20426,7 +19817,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q10",
       "question": "Collecting metrics in a containerized environment can be challenging since many workloads are short-lived. What options can be used to successfully collect metrics in this environment using Prometheus? (select two)",
       "multiSelect": true,
       "answers": [
@@ -20459,7 +19849,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q11",
       "question": "Which of the following metrics can be monitored and collected by Prometheus? (select three)",
       "multiSelect": true,
       "answers": [
@@ -20492,7 +19881,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q12",
       "question": "What is the primary responsibility of the Kubernetes scheduler when it comes to pod placement on nodes in a cluster?",
       "multiSelect": false,
       "answers": [
@@ -20525,7 +19913,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q13",
       "question": "Containers are designed to be stateless and typically local data is considered ephemeral. What does this mean for any data that is stored in a container?",
       "multiSelect": false,
       "answers": [
@@ -20558,7 +19945,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q14",
       "question": "Rather than storing sensitive data, such as API keys or passwords, directly in a resource definition file, where should you securely store this information?",
       "multiSelect": false,
       "answers": [
@@ -20591,7 +19977,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q15",
       "question": "When using a GitOps approach for continuous deployment and integration, what is the single source of truth for applications, configurations, and the system's desired state?",
       "multiSelect": false,
       "answers": [
@@ -20624,7 +20009,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q16",
       "question": "What are the benefits of using a GitOps tool to continuously reconcile the state of the infrastructure?",
       "multiSelect": false,
       "answers": [
@@ -20657,7 +20041,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q17",
       "question": "What is another term commonly used to describe the serverless cloud-native development model?",
       "multiSelect": false,
       "answers": [
@@ -20690,7 +20073,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q18",
       "question": "After Prometheus has successfully collected metrics from servers, what language is used to query and visualize the data into dashboards and charts?",
       "multiSelect": false,
       "answers": [
@@ -20723,7 +20105,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q19",
       "question": "The kubelet service on every worker node performs several functions. Which of the following is NOT one of them?",
       "multiSelect": false,
       "answers": [
@@ -20756,7 +20137,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q20",
       "question": "Your organization uses Kubernetes for its production workloads. As a DevOps Engineer, you must ensure that the Kubernetes cluster has sufficient resources (nodes) to handle all application workloads but minimize costs when the workload is reduced. What feature can you use to meet these requirements?",
       "multiSelect": false,
       "answers": [
@@ -20789,7 +20169,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q21",
       "question": "In a ReplicaSet definition file, what is the purpose of defining a selector with matchLabels?",
       "multiSelect": false,
       "answers": [
@@ -20822,7 +20201,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q22",
       "question": "Which of the following is NOT a benefit of adopting a GitOps approach for application deployment and management?",
       "multiSelect": false,
       "answers": [
@@ -20867,7 +20245,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q23",
       "question": "When running a sidecar, what is the benefit of using a shared execution environment like the one found in a Kubernetes Pod?",
       "multiSelect": false,
       "answers": [
@@ -20900,7 +20277,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q24",
       "question": "You are managing a Kubernetes cluster for a web application. The application requires periodic tasks, such as database backups and log rotation. What is the primary reason for using a CronJob resource in Kubernetes to manage these tasks?",
       "multiSelect": false,
       "answers": [
@@ -20933,7 +20309,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q25",
       "question": "Which of the following Kubernetes components are found on worker nodes? (select three)",
       "multiSelect": true,
       "answers": [
@@ -20966,7 +20341,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q26",
       "question": "What is a microservices architecture?",
       "multiSelect": false,
       "answers": [
@@ -20999,7 +20373,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q27",
       "question": "You have created a Kubernetes definition file named web.yaml to deploy a fleet of web servers for your organization. What command would you use to apply this new definition file to your cluster?",
       "multiSelect": false,
       "answers": [
@@ -21032,7 +20405,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q28",
       "question": "Which of the following statements accurately describes Linkerd in the context of Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -21065,7 +20437,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q29",
       "question": "Which of the following is NOT a benefit of adopting a GitOps approach for application deployment and management?",
       "multiSelect": false,
       "answers": [
@@ -21110,7 +20481,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q30",
       "question": "In Kubernetes, what is the primary purpose of using labels and selectors?",
       "multiSelect": false,
       "answers": [
@@ -21143,7 +20513,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q31",
       "question": "What happens to the data stored in a container when the container is destroyed?",
       "multiSelect": false,
       "answers": [
@@ -21176,7 +20545,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q32",
       "question": "When creating a namespace, what resource types are included within a namespace? (select three)",
       "multiSelect": true,
       "answers": [
@@ -21209,7 +20577,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q33",
       "question": "You are managing a Kubernetes cluster for a company's microservices-based application. One of the development teams is deploying a new pod in the default namespace, but they haven't specified any resource requirements in the pod's definition file. What will be the result regarding resource limits for this pod?",
       "multiSelect": false,
       "answers": [
@@ -21242,7 +20609,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q34",
       "question": "Your containerized application requires additional resources (memory) to increase performance. What type of scaling is this referred to as?",
       "multiSelect": false,
       "answers": [
@@ -21275,7 +20641,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q35",
       "question": "In a Kubernetes cluster, what is the default communication behavior between pods when no explicit network policy is applied?",
       "multiSelect": false,
       "answers": [
@@ -21308,7 +20673,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q36",
       "question": "In the unfortunate event of a security incident, what benefits does a GitOps approach offer organizations as they attempt to recover?",
       "multiSelect": false,
       "answers": [
@@ -21341,7 +20705,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q37",
       "question": "What Kubernetes resource should you use to ensure that database pods have access to reliable and persistent storage?",
       "multiSelect": false,
       "answers": [
@@ -21374,7 +20737,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q38",
       "question": "What is the default container runtime on most modern Kubernetes clusters?",
       "multiSelect": false,
       "answers": [
@@ -21407,7 +20769,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q39",
       "question": "You have created a ReplicaSet for 'web-app-prod' and want to scale it from 3 to 5 replicas. What is the correct kubectl command?",
       "multiSelect": false,
       "answers": [
@@ -21440,7 +20801,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q40",
       "question": "When was Kubernetes accepted to the Cloud Native Computing Foundation (CNCF)?",
       "multiSelect": false,
       "answers": [
@@ -21473,7 +20833,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q41",
       "question": "You are responsible for monitoring an application from which you want to obtain metrics. However, the application cannot be queried directly by Prometheus. What can you use to scrape these metrics and convert them into a format that Prometheus supports?",
       "multiSelect": false,
       "answers": [
@@ -21506,7 +20865,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q42",
       "question": "In the Kubernetes architecture, where are all the Kubernetes objects defined?",
       "multiSelect": false,
       "answers": [
@@ -21539,7 +20897,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q43",
       "question": "What command is used to view information about all pods across all namespaces running on a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -21572,7 +20929,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q44",
       "question": "As an experienced Kubernetes administrator, you have an idea for a new feature of Kubernetes that you think others will find useful. What is the proper workflow to propose this idea and get it added to a future release?",
       "multiSelect": false,
       "answers": [
@@ -21605,7 +20961,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q45",
       "question": "What is the primary purpose of the Container Runtime Interface (CRI) in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -21638,7 +20993,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q46",
       "question": "You have many application workloads running on your Kubernetes cluster. You decide that the resources on Node1 and Node2 need to be dedicated to production workloads, so you apply a taint to the node using the NoSchedule effect. However, the existing non-production workloads continue to run on Node1 and Node2.",
       "multiSelect": false,
       "answers": [
@@ -21677,7 +21031,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q47",
       "question": "You have a definition file named production.yaml for your workload but you have recently made changes to the file and need to apply the changes to the existing objects. How can you apply these changes to the Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -21710,7 +21063,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q48",
       "question": "What is one of the main obstacles that organizations encounter before implementing a CI/CD process for deploying applications?",
       "multiSelect": false,
       "answers": [
@@ -21743,7 +21095,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q49",
       "question": "What is a Kubernetes Service?",
       "multiSelect": false,
       "answers": [
@@ -21776,7 +21127,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q50",
       "question": "In a Kubernetes cluster, what is the purpose of using multiple schedulers?",
       "multiSelect": false,
       "answers": [
@@ -21809,7 +21159,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q51",
       "question": "What is the primary purpose of the kubectl proxy command?",
       "multiSelect": false,
       "answers": [
@@ -21842,7 +21191,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q52",
       "question": "Which of the following are true regarding kubeconfig files? (select three)",
       "multiSelect": true,
       "answers": [
@@ -21875,7 +21223,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam10_q53",
       "question": "Which job role is typically responsible for designing infrastructure and applications to be cloud-native?",
       "multiSelect": false,
       "answers": [
@@ -21908,7 +21255,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam10_q54",
       "question": "Why are open standards critical for developing and consuming cloud-native tools?",
       "multiSelect": false,
       "answers": [
@@ -21941,7 +21287,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q55",
       "question": "What format or file type is used to create the manifest for defining a Kubernetes Pod?",
       "multiSelect": false,
       "answers": [
@@ -21974,7 +21319,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q56",
       "question": "What does the acronym \"CNI\" stand for in the context of Kubernetes, and what role does it play in the container orchestration environment?",
       "multiSelect": false,
       "answers": [
@@ -22007,7 +21351,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam10_q57",
       "question": "Which Kubernetes components will you find running on a control plane node? (select four)",
       "multiSelect": true,
       "answers": [
@@ -22052,7 +21395,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q58",
       "question": "Which of the following are valid types of nodes found in a Kubernetes cluster? (select two)",
       "multiSelect": true,
       "answers": [
@@ -22085,7 +21427,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam10_q59",
       "question": "You have a high-performing app you want to schedule on the same node to minimize latency between an application container and the data processing container. What scheduler feature can you use so the containers will be scheduled on the same node?",
       "multiSelect": false,
       "answers": [
@@ -22118,7 +21459,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam10_q60",
       "question": "You are managing a Kubernetes cluster with multiple worker nodes. You need to deploy a monitoring agent pod on each node for monitoring purposes. Which Kubernetes resource type is most suitable for this task?",
       "multiSelect": false,
       "answers": [
@@ -22151,7 +21491,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q1",
       "question": "What is the primary purpose of Role-Based Access Control (RBAC) in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -22184,7 +21523,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam11_q2",
       "question": "Which Kubernetes objects are used to define RBAC permissions?",
       "multiSelect": true,
       "answers": [
@@ -22217,7 +21555,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam11_q3",
       "question": "What is the purpose of a Kubernetes NetworkPolicy?",
       "multiSelect": false,
       "answers": [
@@ -22250,7 +21587,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q4",
       "question": "What happens by default if no NetworkPolicy is applied to a namespace?",
       "multiSelect": false,
       "answers": [
@@ -22283,7 +21619,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam11_q5",
       "question": "What is Pod Security Admission in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -22316,7 +21651,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q6",
       "question": "What are the three Pod Security Standards levels defined by Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -22349,7 +21683,6 @@ const EXAM_DATA = {
       "domain": "Kubernetes Fundamentals"
     },
     {
-      "id": "exam11_q7",
       "question": "What is mutual TLS (mTLS) and why is it important in cloud-native applications?",
       "multiSelect": false,
       "answers": [
@@ -22382,7 +21715,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q8",
       "question": "What is GitOps?",
       "multiSelect": false,
       "answers": [
@@ -22415,7 +21747,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q9",
       "question": "Which of the following are popular GitOps tools for Kubernetes?",
       "multiSelect": true,
       "answers": [
@@ -22448,7 +21779,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q10",
       "question": "What is Helm in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -22481,7 +21811,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q11",
       "question": "What is a Helm Chart?",
       "multiSelect": false,
       "answers": [
@@ -22514,7 +21843,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q12",
       "question": "What is Kustomize and how does it differ from Helm?",
       "multiSelect": false,
       "answers": [
@@ -22547,7 +21875,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q13",
       "question": "What is the pull-based approach in GitOps, and why is it preferred?",
       "multiSelect": false,
       "answers": [
@@ -22580,7 +21907,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q14",
       "question": "What is Prometheus in the context of cloud-native observability?",
       "multiSelect": false,
       "answers": [
@@ -22613,7 +21939,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q15",
       "question": "What is the primary data model used by Prometheus?",
       "multiSelect": false,
       "answers": [
@@ -22646,7 +21971,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q16",
       "question": "What is Grafana commonly used for in Kubernetes environments?",
       "multiSelect": false,
       "answers": [
@@ -22679,7 +22003,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q17",
       "question": "What is OpenTelemetry?",
       "multiSelect": false,
       "answers": [
@@ -22712,7 +22035,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q18",
       "question": "What are the three pillars of observability?",
       "multiSelect": false,
       "answers": [
@@ -22745,7 +22067,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q19",
       "question": "What is Jaeger used for in cloud-native applications?",
       "multiSelect": false,
       "answers": [
@@ -22778,7 +22099,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q20",
       "question": "What is the 12-Factor App methodology?",
       "multiSelect": false,
       "answers": [
@@ -22811,7 +22131,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q21",
       "question": "Which of the following is a key principle of the 12-Factor App?",
       "multiSelect": true,
       "answers": [
@@ -22844,7 +22163,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q22",
       "question": "What is the sidecar pattern in cloud-native architecture?",
       "multiSelect": false,
       "answers": [
@@ -22877,7 +22195,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q23",
       "question": "What is a service mesh?",
       "multiSelect": false,
       "answers": [
@@ -22910,7 +22227,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q24",
       "question": "Which of the following are popular service mesh implementations?",
       "multiSelect": true,
       "answers": [
@@ -22943,7 +22259,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q25",
       "question": "What is serverless computing in the context of cloud-native?",
       "multiSelect": false,
       "answers": [
@@ -22976,7 +22291,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q26",
       "question": "What is Knative?",
       "multiSelect": false,
       "answers": [
@@ -23009,7 +22323,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q27",
       "question": "What is the difference between CI and CD in CI/CD pipelines?",
       "multiSelect": false,
       "answers": [
@@ -23042,7 +22355,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q28",
       "question": "What is the canary deployment strategy?",
       "multiSelect": false,
       "answers": [
@@ -23075,7 +22387,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q29",
       "question": "What is the blue-green deployment strategy?",
       "multiSelect": false,
       "answers": [
@@ -23108,7 +22419,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Application Delivery"
     },
     {
-      "id": "exam11_q30",
       "question": "What is an Admission Controller in Kubernetes?",
       "multiSelect": false,
       "answers": [
@@ -23141,7 +22451,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam11_q31",
       "question": "What is the Open Container Initiative (OCI)?",
       "multiSelect": false,
       "answers": [
@@ -23174,7 +22483,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q32",
       "question": "What is the Container Runtime Interface (CRI)?",
       "multiSelect": false,
       "answers": [
@@ -23207,7 +22515,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q33",
       "question": "What is the Container Network Interface (CNI)?",
       "multiSelect": false,
       "answers": [
@@ -23240,7 +22547,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q34",
       "question": "What is Horizontal Pod Autoscaling (HPA)?",
       "multiSelect": false,
       "answers": [
@@ -23273,7 +22579,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q35",
       "question": "What is Vertical Pod Autoscaling (VPA)?",
       "multiSelect": false,
       "answers": [
@@ -23306,7 +22611,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q36",
       "question": "What is the Cluster Autoscaler?",
       "multiSelect": false,
       "answers": [
@@ -23339,7 +22643,6 @@ const EXAM_DATA = {
       "domain": "Container Orchestration"
     },
     {
-      "id": "exam11_q37",
       "question": "What is the CNCF (Cloud Native Computing Foundation)?",
       "multiSelect": false,
       "answers": [
@@ -23372,7 +22675,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q38",
       "question": "What is etcd in a Kubernetes cluster?",
       "multiSelect": false,
       "answers": [
@@ -23405,7 +22707,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Observability"
     },
     {
-      "id": "exam11_q39",
       "question": "What is the purpose of Kubernetes Secrets?",
       "multiSelect": false,
       "answers": [
@@ -23438,7 +22739,6 @@ const EXAM_DATA = {
       "domain": "Cloud Native Architecture"
     },
     {
-      "id": "exam11_q40",
       "question": "What is the difference between a Kubernetes Secret and a ConfigMap?",
       "multiSelect": false,
       "answers": [
